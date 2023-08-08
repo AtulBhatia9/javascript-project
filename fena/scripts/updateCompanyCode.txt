@@ -1,0 +1,101 @@
+Total length of dispatch Managements: 50
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: TKNP
+Company Code from Fu: Not available
+Company Code from Order: DPUR
+Company Code from Fu: Not available
+Company Code from Order: THAR
+Company Code from Fu: Not available
+Company Code from Order: THAR
+Company Code from Fu: Not available
+Company Code from Order: THAR
+Company Code from Fu: Not available
+Company Code from Order: UKAT
+Company Code from Fu: Not available
+Company Code from Order: UKAT
+Company Code from Fu: Not available
+Company Code from Order: THAR
+Company Code from Fu: Not available
+Company Code from Order: THAR
+Company Code from Fu: Not available
+Company Code from Order: THAR
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: UPON
+Company Code from Fu: Not available
+Company Code from Order: UHOW
+Company Code from Fu: Not available
+Company Code from Order: UHOW
+Company Code from Fu: Not available
+Company Code from Order: UHOW
+Company Code from Fu: Not available
+Company Code from Order: UHOW
+Company Code from Fu: Not available
+Company Code from Order: DPAT
+Company Code from Fu: Not available
+Company Code from Order: DPAT
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: UROO
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: DPAR
+Company Code from Fu: Not available
+Company Code from Order: USUR
+Company Code from Fu: Not available
+Company Code from Order: USUR
+Company Code from Fu: Not available
+Company Code from Order: TKNP
+Company Code from Fu: Not available
+Company Code from Order: DHYD
+Company Code from Fu: Not available
+Company Code from Order: DHYD
+Company Code from Fu: Not available
+Company Code from Order: USIL
+Company Code from Fu: Not available
+Company Code from Order: DPAT
+Company Code from Fu: Not available
+Company Code from Order: USIL
+Company Code from Fu: Not available
+Company Code from Order: USIL
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: USIL
+Company Code from Fu: Not available
+Company Code from Order: USUR
+Company Code from Fu: Not available
+Company Code from Order: USIL
+Company Code from Fu: Not available
+Company Code from Order: USIL
+Company Code from Fu: Not available
+Company Code from Order: Not available
+Company Code from Fu: Not available
+Company Code from Order: DPAR
+Company Code from Fu: Not available
+Company Code from Order: DPUR
+Company Code from Fu: Not available
+Company Code from Order: DWAD
+Company Code from Fu: Not available
+Company Code from Order: DDHA
+Company Code from Fu: Not available
+Company Code from Order: DPUR
+Company Code from Fu: Not available
+Company Code from Order: DDHA
+Company Code from Fu: Not available
+Company Code from Order: UPON
+Company Code from Fu: Not available
+Company Code from Order: DHAL
+Company Code from Fu: Not available
+Company Code from Order: DAHM
+Company Code from Fu: Not available
+Company Code from Order: DVJP

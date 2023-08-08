@@ -1,0 +1,1289 @@
+{
+  __version: 2,
+  _departedfromdelivery_: {
+    _nested: {
+      _path: 'shipmentStages',
+      'shipmentStages.tripPoint.purpose': [Array],
+      departureTime: [Object]
+    }
+  },
+  _shcf_Type: [ 'Inbound' ]
+}
+http://apis.fretron.com/shipment-view/shipments/v1?filters=%7B%22__version%22%3A2%2C%22_departedfromdelivery_%22%3A%7B%22_nested%22%3A%7B%22_path%22%3A%22shipmentStages%22%2C%22shipmentStages.tripPoint.purpose%22%3A%5B%22Delivery%22%5D%2C%22departureTime%22%3A%7B%22isTillExpression%22%3Afalse%2C%22isFromExpression%22%3Afalse%2C%22from%22%3A1687954707533%2C%22till%22%3A1688041107533%7D%7D%7D%2C%22_shcf_Type%22%3A%5B%22Inbound%22%5D%7D&sortBy=earliestDate&size=3000
+Total Shs length Inbound : 24
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=22cf73fa-39bf-4fab-a731-04e0be3c371c&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 22cf73fa-39bf-4fab-a731-04e0be3c371c length 6
+Not Dirty History of 22cf73fa-39bf-4fab-a731-04e0be3c371c length 5
+1688030117000 1688033787000
+01:01
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=232dbbb9-57d0-40cf-a606-730de8413796&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 232dbbb9-57d0-40cf-a606-730de8413796 length 16
+Not Dirty History of 232dbbb9-57d0-40cf-a606-730de8413796 length 15
+1688033463000 1688037033000
+00:59
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=6e6bd976-0508-4a9d-b5a8-d74c356a57a9&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 6e6bd976-0508-4a9d-b5a8-d74c356a57a9 length 4
+Not Dirty History of 6e6bd976-0508-4a9d-b5a8-d74c356a57a9 length 3
+1688008381000 1688019168398
+02:59
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=1b9e9806-1dd7-439e-862d-f98bbe7ea114&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 1b9e9806-1dd7-439e-862d-f98bbe7ea114 length 1
+Not Dirty History of 1b9e9806-1dd7-439e-862d-f98bbe7ea114 length 1
+1688018642808 1688018642808
+
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=015f5db1-fee9-47b4-be3f-55b7fb9f3fcb&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 015f5db1-fee9-47b4-be3f-55b7fb9f3fcb length 4
+Not Dirty History of 015f5db1-fee9-47b4-be3f-55b7fb9f3fcb length 4
+1688006341000 1688018504000
+03:22
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=ccf4e0c8-7712-445b-9a09-8c3e436b5fea&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of ccf4e0c8-7712-445b-9a09-8c3e436b5fea length 5
+Not Dirty History of ccf4e0c8-7712-445b-9a09-8c3e436b5fea length 5
+1688006220000 1688017441000
+03:07
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=54d8253c-1edf-4242-b705-c9016e5b6199&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 54d8253c-1edf-4242-b705-c9016e5b6199 length 4
+Not Dirty History of 54d8253c-1edf-4242-b705-c9016e5b6199 length 3
+1688007946000 1688015667000
+02:08
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=eebace62-4e07-4946-8e5b-793ac6a429e6&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of eebace62-4e07-4946-8e5b-793ac6a429e6 length 0
+Not Dirty History of eebace62-4e07-4946-8e5b-793ac6a429e6 length 0
+1688018473905 1688018473905
+
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=dce6c0d7-ac7c-4cd0-99e5-74a4e6ef0e24&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of dce6c0d7-ac7c-4cd0-99e5-74a4e6ef0e24 length 4
+Not Dirty History of dce6c0d7-ac7c-4cd0-99e5-74a4e6ef0e24 length 4
+1688005838000 1688018194000
+03:25
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=f58a37dd-b47e-4e25-a3a3-3a5bd56ab5a5&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of f58a37dd-b47e-4e25-a3a3-3a5bd56ab5a5 length 2
+Not Dirty History of f58a37dd-b47e-4e25-a3a3-3a5bd56ab5a5 length 1
+1688005693000 1688018490834
+03:33
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=0ffd7575-26e9-4fc1-981e-6bf0cb8eccbc&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 0ffd7575-26e9-4fc1-981e-6bf0cb8eccbc length 0
+Not Dirty History of 0ffd7575-26e9-4fc1-981e-6bf0cb8eccbc length 0
+1688018511283 1688018511283
+
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=4a99319f-70b3-44a1-ae7e-d95589ad493a&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 4a99319f-70b3-44a1-ae7e-d95589ad493a length 3
+Not Dirty History of 4a99319f-70b3-44a1-ae7e-d95589ad493a length 3
+1688005314000 1688016137000
+03:00
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=8245b3db-53be-4e98-a403-7afcdb1cacac&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 8245b3db-53be-4e98-a403-7afcdb1cacac length 0
+Not Dirty History of 8245b3db-53be-4e98-a403-7afcdb1cacac length 0
+1688017801639 1688017801639
+
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=24961d6e-bf9c-4459-9bc7-4cb66bb3ece8&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 24961d6e-bf9c-4459-9bc7-4cb66bb3ece8 length 0
+Not Dirty History of 24961d6e-bf9c-4459-9bc7-4cb66bb3ece8 length 0
+1688018049081 1688018049081
+
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=45ea47b6-3ca2-42c7-9632-ee16628cc691&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 45ea47b6-3ca2-42c7-9632-ee16628cc691 length 4
+Not Dirty History of 45ea47b6-3ca2-42c7-9632-ee16628cc691 length 3
+1688005173000 1688005754740
+00:09
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=6f35ac9a-3102-4139-aad1-0cb3081e2d69&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 6f35ac9a-3102-4139-aad1-0cb3081e2d69 length 9
+Not Dirty History of 6f35ac9a-3102-4139-aad1-0cb3081e2d69 length 7
+1687970968000 1687977410502
+01:47
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=1e63429a-c583-4b69-97fa-1df01dfdce8f&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 1e63429a-c583-4b69-97fa-1df01dfdce8f length 8
+Not Dirty History of 1e63429a-c583-4b69-97fa-1df01dfdce8f length 8
+1687965834000 1687969250924
+00:56
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=5f0b1933-c94e-4814-b81b-e58d1178d48b&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 5f0b1933-c94e-4814-b81b-e58d1178d48b length 7
+Not Dirty History of 5f0b1933-c94e-4814-b81b-e58d1178d48b length 7
+1687964903000 1687967653000
+00:45
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=37cab218-3331-4d25-a0a7-5ea5d68000e7&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 37cab218-3331-4d25-a0a7-5ea5d68000e7 length 0
+Not Dirty History of 37cab218-3331-4d25-a0a7-5ea5d68000e7 length 0
+1687968444502 1687968444502
+
+Cathced Error in producing json : update_stage_service is not defined
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=1eec1a89-bc8c-4895-a4b2-ff3bff23e012&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 1eec1a89-bc8c-4895-a4b2-ff3bff23e012 length 9
+Not Dirty History of 1eec1a89-bc8c-4895-a4b2-ff3bff23e012 length 8
+1687931823000 1687932053000
+00:03
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=9fab5bac-532c-4cae-8088-ec96a17f761c&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 9fab5bac-532c-4cae-8088-ec96a17f761c length 12
+Not Dirty History of 9fab5bac-532c-4cae-8088-ec96a17f761c length 12
+1687947014000 1687947894000
+00:14
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=406aba27-649d-4ae6-ad84-1695ba000c1c&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 406aba27-649d-4ae6-ad84-1695ba000c1c length 22
+Not Dirty History of 406aba27-649d-4ae6-ad84-1695ba000c1c length 22
+1687931246000 1687950216000
+05:16
+http://apis.fretron.com/plant-tracking/v1/admin/processed-history?shId=7e13bf59-5b08-483f-b692-943915120eb7&orgId=472b3c51-d8e9-4294-8a7f-a69093b505b7
+History of 7e13bf59-5b08-483f-b692-943915120eb7 length 13
+Not Dirty History of 7e13bf59-5b08-483f-b692-943915120eb7 length 13
+1687868503000 1688013335000
+40:13
+-----Itterating Shipments to Create HTML-----
+Total sh in report : Inbound 24
+{
+  jsonData: [
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028751',
+      'Transporter Name': 'SUBH LAXMI',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53DH1438',
+      'Material Description': '',
+      'Driver Name': 'KAMLESH',
+      'Driver Mobile Number': '8756169504',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 14:25',
+      Category: 'Rice Husk',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 14:14',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '00:03',
+      'Reserve Parking Stages (Pre Unloading)': 'Front Side Road Parking,South Wall Inside Road',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '00:04',
+      'Unloading State Name': 'Rice Husk Yard',
+      'Unloading State In Time': '29/06/2023 14:45',
+      'Unloading State Out Time': '29/06/2023 15:46',
+      'Unloading State TAT(HH:MM)': '01:01',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': 'South Wall Inside Road',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:02',
+      'Plant Out Date Time': '29/06/2023 15:53',
+      'Plant TAT(HH:MM)': '01:38',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028729',
+      'Transporter Name': 'MEERUT POLYPACK PVT LTD',
+      'Vendor Name': 'MEERUT POLYPACK PVT LIMITED',
+      'Vendor Code': '0006006486',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP15CT1332',
+      'Material Description': 'PP BAGS',
+      'Driver Name': 'NAUSAD ALI',
+      'Driver Mobile Number': '9058507480',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 09:19',
+      Category: 'Package Unload',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 09:19',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:03',
+      'Main Parking State Tat(HH:MM)': '00:24',
+      'Reserve Parking Stages (Pre Unloading)': 'IGL Main Road,Empty Bottle CL Unload,Rice Husk Yard 2',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '05:03',
+      'Unloading State Name': 'Packaging Store & Parking',
+      'Unloading State In Time': '29/06/2023 15:41',
+      'Unloading State Out Time': '29/06/2023 16:40',
+      'Unloading State TAT(HH:MM)': '00:59',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:01',
+      'Reserve Parking Stages (Post Unloading)': 'Pet Resin Unloading,IGL Main Road,Molasses Unloading',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:14',
+      'Plant Out Date Time': '29/06/2023 17:22',
+      'Plant TAT(HH:MM)': '08:02',
+      Plant: 'GPCH',
+      'PO No_1': '6400047938',
+      'Purchase Group': 'S49',
+      'MRN No': '5001691208',
+      'MRN Date': '2023-06-27',
+      "MRN Lineitem No's": '1',
+      'Challan No': '15/2023-24',
+      'Challan Date': '2023-06-29',
+      'No of Packet_1': '0',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '64',
+      'GR Date': '2023-06-27',
+      'Item Code_1': '000000009935153489',
+      'Material Type_1': 'ERSA',
+      UNIT_1: 'NOS',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028723',
+      'Transporter Name': 'ITC',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53GT2569',
+      'Material Description': '',
+      'Driver Name': 'JITENDAR KUMAR',
+      'Driver Mobile Number': '9151457508',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 08:06',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 07:42',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 08:43',
+      'Unloading State Out Time': '29/06/2023 11:42',
+      'Unloading State TAT(HH:MM)': '02:59',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:42',
+      'Plant TAT(HH:MM)': '04:00',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028722',
+      'Transporter Name': 'GANPATI',
+      'Vendor Name': 'UP.STATE SUGAR & CANE DEVEL',
+      'Vendor Code': '0002000565',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53BT7871',
+      'Material Description': 'MOLASSES CHEMICAL',
+      'Driver Name': 'KRISHNA',
+      'Driver Mobile Number': '7068289396',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 08:04',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 08:04',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:00',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 11:34',
+      'Unloading State Out Time': '29/06/2023 11:34',
+      'Unloading State TAT(HH:MM)': '',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:34',
+      'Plant TAT(HH:MM)': '03:29',
+      Plant: 'GPCH',
+      'PO No_1': '4500049711',
+      'Purchase Group': 'S36',
+      'MRN No': '5001691209',
+      'MRN Date': '2023-06-28',
+      "MRN Lineitem No's": '1',
+      'Challan No': 'M/23-24/00366',
+      'Challan Date': '2023-06-29',
+      'No of Packet_1': '1',
+      'Nature of Packet_1': 'LOOSE',
+      'Transporter GR No': '',
+      'GR Date': '0000-00-00',
+      'Item Code_1': '000000005947130029',
+      'Material Type_1': 'ROH',
+      UNIT_1: 'QTL',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028721',
+      'Transporter Name': 'GANPATI',
+      'Vendor Name': 'UP.STATE SUGAR & CANE DEVEL',
+      'Vendor Code': '0002000565',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53BT7873',
+      'Material Description': 'MOLASSES CHEMICAL',
+      'Driver Name': 'OM PRAKASH',
+      'Driver Mobile Number': '7383087301',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 08:02',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 08:02',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:05',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 08:09',
+      'Unloading State Out Time': '29/06/2023 11:31',
+      'Unloading State TAT(HH:MM)': '03:22',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:02',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:34',
+      'Plant TAT(HH:MM)': '03:31',
+      Plant: 'GPCH',
+      'PO No_1': '4500049711',
+      'Purchase Group': 'S36',
+      'MRN No': '5001691205',
+      'MRN Date': '2023-06-28',
+      "MRN Lineitem No's": '1',
+      'Challan No': 'M/23-24/00371',
+      'Challan Date': '2023-06-29',
+      'No of Packet_1': '1',
+      'Nature of Packet_1': 'LOOSE',
+      'Transporter GR No': '',
+      'GR Date': '0000-00-00',
+      'Item Code_1': '000000005947130029',
+      'Material Type_1': 'ROH',
+      UNIT_1: 'QTL',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028719',
+      'Transporter Name': 'NANDANI',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53ET9386',
+      'Material Description': '',
+      'Driver Name': 'INDRAJEET',
+      'Driver Mobile Number': '8924837695',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:59',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 08:00',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:04',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 08:07',
+      'Unloading State Out Time': '29/06/2023 11:14',
+      'Unloading State TAT(HH:MM)': '03:07',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:13',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:30',
+      'Plant TAT(HH:MM)': '03:30',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028718',
+      'Transporter Name': 'KESHAV',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP57T5789',
+      'Material Description': '',
+      'Driver Name': 'LALJI',
+      'Driver Mobile Number': '9005848677',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:58',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 07:31',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 08:35',
+      'Unloading State Out Time': '29/06/2023 10:44',
+      'Unloading State TAT(HH:MM)': '02:08',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 10:44',
+      'Plant TAT(HH:MM)': '03:13',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028717',
+      'Transporter Name': 'TRANSEF',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53DT6753',
+      'Material Description': '',
+      'Driver Name': 'RAMA NAND',
+      'Driver Mobile Number': '7860980751',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:57',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 11:31',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': '',
+      'Unloading State In Time': '29/06/2023 11:31',
+      'Unloading State Out Time': '29/06/2023 11:31',
+      'Unloading State TAT(HH:MM)': '',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:31',
+      'Plant TAT(HH:MM)': '00:00',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028716',
+      'Transporter Name': 'ITC',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53GT3609',
+      'Material Description': '',
+      'Driver Name': 'RAJNEESH',
+      'Driver Mobile Number': '8429662033',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:54',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 07:54',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:06',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 08:00',
+      'Unloading State Out Time': '29/06/2023 11:26',
+      'Unloading State TAT(HH:MM)': '03:25',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:01',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:32',
+      'Plant TAT(HH:MM)': '03:38',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028715',
+      'Transporter Name': 'ITC',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53AT3686',
+      'Material Description': '',
+      'Driver Name': 'PRAMOD',
+      'Driver Mobile Number': '8009915007',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:52',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 07:47',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 07:58',
+      'Unloading State Out Time': '29/06/2023 11:31',
+      'Unloading State TAT(HH:MM)': '03:33',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:31',
+      'Plant TAT(HH:MM)': '03:43',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028714',
+      'Transporter Name': 'ITC',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53AT1782',
+      'Material Description': '',
+      'Driver Name': 'GOPAL',
+      'Driver Mobile Number': '9956291442',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:50',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 11:31',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': '',
+      'Unloading State In Time': '29/06/2023 11:31',
+      'Unloading State Out Time': '29/06/2023 11:31',
+      'Unloading State TAT(HH:MM)': '',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:31',
+      'Plant TAT(HH:MM)': '00:00',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028713',
+      'Transporter Name': 'KESHAV',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53ET0093',
+      'Material Description': '',
+      'Driver Name': 'RAJESH',
+      'Driver Mobile Number': '7307538825',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:47',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 07:49',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:02',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 07:51',
+      'Unloading State Out Time': '29/06/2023 10:52',
+      'Unloading State TAT(HH:MM)': '03:00',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:19',
+      'Plant TAT(HH:MM)': '03:30',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028712',
+      'Transporter Name': 'MANISH CARRIER TRANSPORT',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP65HT3350',
+      'Material Description': '',
+      'Driver Name': 'JITENDRA TIWARI',
+      'Driver Mobile Number': '9839657998',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:45',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 11:20',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': '',
+      'Unloading State In Time': '29/06/2023 11:20',
+      'Unloading State Out Time': '29/06/2023 11:20',
+      'Unloading State TAT(HH:MM)': '',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:20',
+      'Plant TAT(HH:MM)': '00:00',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028711',
+      'Transporter Name': 'TRANSEF',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53FT5586',
+      'Material Description': '',
+      'Driver Name': 'VISHWA NATH',
+      'Driver Mobile Number': '7071511271',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:50',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 11:24',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': '',
+      'Unloading State In Time': '29/06/2023 11:24',
+      'Unloading State Out Time': '29/06/2023 11:24',
+      'Unloading State TAT(HH:MM)': '',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:24',
+      'Plant TAT(HH:MM)': '00:00',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028709',
+      'Transporter Name': 'ITC',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53HT9687',
+      'Material Description': '',
+      'Driver Name': 'AMARNATH',
+      'Driver Mobile Number': '8400459153',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '29/06/2023 07:42',
+      Category: 'Molasses',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '29/06/2023 07:23',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:02',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': 'Molasses Unloading',
+      'Unloading State In Time': '29/06/2023 07:49',
+      'Unloading State Out Time': '29/06/2023 07:59',
+      'Unloading State TAT(HH:MM)': '00:09',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '29/06/2023 11:24',
+      'Plant TAT(HH:MM)': '04:00',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028688',
+      'Transporter Name': 'SHUBH LAXMI',
+      'Vendor Name': 'SHUBH LAXMI TRADING COMPANY',
+      'Vendor Code': '0006007387',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP57U5310',
+      'Material Description': 'RICE HUSK',
+      'Driver Name': 'ANOOP',
+      'Driver Mobile Number': '9794822539',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '28/06/2023 22:00',
+      Category: 'Rice Husk',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '28/06/2023 21:59',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '00:01',
+      'Reserve Parking Stages (Pre Unloading)': 'Front Side Road Parking,South Wall Inside Road,Silica Sand Unloading',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '00:04',
+      'Unloading State Name': 'Rice Husk Yard',
+      'Unloading State In Time': '28/06/2023 22:19',
+      'Unloading State Out Time': '29/06/2023 00:06',
+      'Unloading State TAT(HH:MM)': '01:47',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:11',
+      'Reserve Parking Stages (Post Unloading)': 'South Wall Inside Road',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:03',
+      'Plant Out Date Time': '29/06/2023 00:20',
+      'Plant TAT(HH:MM)': '02:20',
+      Plant: 'GPCH',
+      'PO No_1': '6400048133',
+      'Purchase Group': 'S34',
+      'MRN No': '5001691176',
+      'MRN Date': '2023-06-28',
+      "MRN Lineitem No's": '1',
+      'Challan No': '04/418',
+      'Challan Date': '2023-06-28',
+      'No of Packet_1': '1',
+      'Nature of Packet_1': 'LOOSE',
+      'Transporter GR No': '',
+      'GR Date': '0000-00-00',
+      'Item Code_1': '000000008001211019',
+      'Material Type_1': 'ZFL',
+      UNIT_1: 'MT',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028685',
+      'Transporter Name': 'MAHADEV',
+      'Vendor Name': '',
+      'Vendor Code': '',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53BS2590',
+      'Material Description': '',
+      'Driver Name': 'DHANNU',
+      'Driver Mobile Number': '9264992679',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '28/06/2023 20:33',
+      Category: 'Rice Husk',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '28/06/2023 20:33',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:10',
+      'Main Parking State Tat(HH:MM)': '00:01',
+      'Reserve Parking Stages (Pre Unloading)': 'Grain Unload',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '00:00',
+      'Unloading State Name': 'Rice Husk Yard',
+      'Unloading State In Time': '28/06/2023 20:53',
+      'Unloading State Out Time': '28/06/2023 21:50',
+      'Unloading State TAT(HH:MM)': '00:56',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:03',
+      'Reserve Parking Stages (Post Unloading)': 'Grain Unload,Front Side Road Parking',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:01',
+      'Plant Out Date Time': '28/06/2023 21:58',
+      'Plant TAT(HH:MM)': '01:24',
+      Plant: '',
+      'PO No_1': '',
+      'Purchase Group': '',
+      'MRN No': '',
+      'MRN Date': '',
+      "MRN Lineitem No's": '',
+      'Challan No': '',
+      'Challan Date': '',
+      'No of Packet_1': '',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '',
+      'GR Date': '',
+      'Item Code_1': '',
+      'Material Type_1': '',
+      UNIT_1: '',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028680',
+      'Transporter Name': 'SUBH LAXMI',
+      'Vendor Name': 'SHUBH LAXMI TRADING COMPANY',
+      'Vendor Code': '0006007387',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53DH1438',
+      'Material Description': 'RICE HUSK',
+      'Driver Name': 'KAMLESH',
+      'Driver Mobile Number': '8756169504',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '28/06/2023 20:25',
+      Category: 'Rice Husk',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '28/06/2023 20:19',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:09',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': 'Front Side Road Parking,South Wall Inside Road',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '00:04',
+      'Unloading State Name': 'Rice Husk Yard',
+      'Unloading State In Time': '28/06/2023 20:38',
+      'Unloading State Out Time': '28/06/2023 21:24',
+      'Unloading State TAT(HH:MM)': '00:45',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:03',
+      'Reserve Parking Stages (Post Unloading)': 'Chemical Godown',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:16',
+      'Plant Out Date Time': '28/06/2023 21:47',
+      'Plant TAT(HH:MM)': '01:27',
+      Plant: 'GPCH',
+      'PO No_1': '6400048133',
+      'Purchase Group': 'S34',
+      'MRN No': '5001691403',
+      'MRN Date': '2023-06-29',
+      "MRN Lineitem No's": '1',
+      'Challan No': '419',
+      'Challan Date': '2023-06-29',
+      'No of Packet_1': '1',
+      'Nature of Packet_1': 'LOOSE',
+      'Transporter GR No': '',
+      'GR Date': '0000-00-00',
+      'Item Code_1': '000000008001211019',
+      'Material Type_1': 'ZFL',
+      UNIT_1: 'MT',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028667',
+      'Transporter Name': 'SUBH LAXMI',
+      'Vendor Name': 'SHUBH LAXMI TRADING COMPANY',
+      'Vendor Code': '0006007387',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP53CS7912',
+      'Material Description': 'RICE HUSK',
+      'Driver Name': 'RAMANAD',
+      'Driver Mobile Number': '8853892875',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '28/06/2023 18:47',
+      Category: 'Rice Husk',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '28/06/2023 21:37',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '',
+      'Reserve Parking Stages (Pre Unloading)': '',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '',
+      'Unloading State Name': '',
+      'Unloading State In Time': '28/06/2023 21:37',
+      'Unloading State Out Time': '28/06/2023 21:37',
+      'Unloading State TAT(HH:MM)': '',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': '',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '',
+      'Plant Out Date Time': '28/06/2023 21:37',
+      'Plant TAT(HH:MM)': '00:00',
+      Plant: 'GPCH',
+      'PO No_1': '6400048133',
+      'Purchase Group': 'S34',
+      'MRN No': '5001691150',
+      'MRN Date': '2023-06-28',
+      "MRN Lineitem No's": '1',
+      'Challan No': '04/416',
+      'Challan Date': '2023-06-28',
+      'No of Packet_1': '1',
+      'Nature of Packet_1': 'LOOSE',
+      'Transporter GR No': '',
+      'GR Date': '0000-00-00',
+      'Item Code_1': '000000008001211019',
+      'Material Type_1': 'ZFL',
+      UNIT_1: 'MT',
+      Qty_1: ''
+    },
+    {},
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028594',
+      'Transporter Name': 'VALUE ADD SOLUTION',
+      'Vendor Name': 'VALUE ADD SOLUTIONS',
+      'Vendor Code': '0003001212',
+      'Vehicle Type': '',
+      'Vehicle Number': 'UP42CT3823',
+      'Material Description': 'GLASS BOTT BLUE PRIN AMAZING VODKA 375ML',
+      'Driver Name': 'SUSHIL',
+      'Driver Mobile Number': '7754809795',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '28/06/2023 10:19',
+      Category: 'Empty Bottle Point-1',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '28/06/2023 10:19',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '',
+      'Main Parking State Tat(HH:MM)': '00:16',
+      'Reserve Parking Stages (Pre Unloading)': 'IGL Main Road',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '00:07',
+      'Unloading State Name': 'Empty Bottle Unloading',
+      'Unloading State In Time': '28/06/2023 11:27',
+      'Unloading State Out Time': '28/06/2023 11:30',
+      'Unloading State TAT(HH:MM)': '00:03',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:29',
+      'Reserve Parking Stages (Post Unloading)': 'Rice Husk Yard 2,Packing store & Parking',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '01:37',
+      'Plant Out Date Time': '28/06/2023 19:51',
+      'Plant TAT(HH:MM)': '09:31',
+      Plant: 'GPLI',
+      'PO No_1': '6800001602',
+      'Purchase Group': 'S34',
+      'MRN No': '5001691220',
+      'MRN Date': '2023-06-26',
+      "MRN Lineitem No's": '1,2,3,4,5',
+      'Challan No': 'VASG-116/IGL-20',
+      'Challan Date': '2023-06-29',
+      'No of Packet_1': '1048',
+      'Nature of Packet_1': 'PACKET',
+      'Transporter GR No': '120643',
+      'GR Date': '2023-06-26',
+      'Item Code_1': '000000003510000059',
+      'Material Type_1': 'VERP',
+      UNIT_1: 'NOS',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028573',
+      'Transporter Name': 'OM GLASS WORK',
+      'Vendor Name': 'OM GLASS WORKS PVT. LTD.',
+      'Vendor Code': '0006005711',
+      'Vehicle Type': '',
+      'Vehicle Number': 'HR38Y1233',
+      'Material Description': 'BOTTLE NEW GLASS UPML 200 ML CL',
+      'Driver Name': 'EMARAN',
+      'Driver Mobile Number': '7355362790',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '28/06/2023 06:31',
+      Category: 'Empty Bottle Point-1',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '28/06/2023 06:31',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '00:04',
+      'Main Parking State Tat(HH:MM)': '00:12',
+      'Reserve Parking Stages (Pre Unloading)': 'IGL Main Road,Pet Resin Unloading,Packing store & Parking',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '07:49',
+      'Unloading State Name': 'Empty Bottle Unloading',
+      'Unloading State In Time': '28/06/2023 15:40',
+      'Unloading State Out Time': '28/06/2023 15:54',
+      'Unloading State TAT(HH:MM)': '00:14',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '00:23',
+      'Reserve Parking Stages (Post Unloading)': 'IGL Main Road',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:07',
+      'Plant Out Date Time': '28/06/2023 19:49',
+      'Plant TAT(HH:MM)': '13:17',
+      Plant: 'GPLI',
+      'PO No_1': '6400048156',
+      'Purchase Group': 'S49',
+      'MRN No': '5001690783',
+      'MRN Date': '2023-06-26',
+      "MRN Lineitem No's": '1',
+      'Challan No': 'OM/23-24/L1820',
+      'Challan Date': '2023-06-28',
+      'No of Packet_1': '1530',
+      'Nature of Packet_1': 'BOX',
+      'Transporter GR No': '',
+      'GR Date': '0000-00-00',
+      'Item Code_1': '000000003516507099',
+      'Material Type_1': 'VERP',
+      UNIT_1: 'NOS',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028529',
+      'Transporter Name': 'SATYAM INDUSTRIES',
+      'Vendor Name': 'SATYAM INDUSTRIES',
+      'Vendor Code': '0006006135',
+      'Vehicle Type': '',
+      'Vehicle Number': 'HR38V9381',
+      'Material Description': 'P.P.CAP,GREEN,25MM',
+      'Driver Name': 'SANTOSH',
+      'Driver Mobile Number': '7303678824',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '27/06/2023 16:08',
+      Category: 'Package Unload',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '27/06/2023 16:12',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '06:43',
+      'Main Parking State Tat(HH:MM)': '02:43',
+      'Reserve Parking Stages (Pre Unloading)': 'IGL Main Road,Bottling Unloading IMPL,Rice Husk Yard 2',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '04:04',
+      'Unloading State Name': 'Packaging Store & Parking',
+      'Unloading State In Time': '28/06/2023 11:17',
+      'Unloading State Out Time': '28/06/2023 16:33',
+      'Unloading State TAT(HH:MM)': '05:16',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': 'Pet Resin Unloading,IGL Main Road',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:26',
+      'Plant Out Date Time': '28/06/2023 21:02',
+      'Plant TAT(HH:MM)': '28:50',
+      Plant: 'GPLI',
+      'PO No_1': '6400048093',
+      'Purchase Group': 'S49',
+      'MRN No': '5001690767',
+      'MRN Date': '2023-06-25',
+      "MRN Lineitem No's": '1,2,3,4',
+      'Challan No': 'SI/0123/2023-24',
+      'Challan Date': '2023-06-27',
+      'No of Packet_1': '0',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '2066',
+      'GR Date': '2023-06-25',
+      'Item Code_1': '000000003522410019',
+      'Material Type_1': 'VERP',
+      UNIT_1: 'NOS',
+      Qty_1: ''
+    },
+    {
+      'IGP Number': '',
+      'Shipment Number': 'FRETSH0028527',
+      'Transporter Name': 'MH CONTAINERS',
+      'Vendor Name': 'MH CONTAINERS PVT LTD',
+      'Vendor Code': '0006007885',
+      'Vehicle Type': '',
+      'Vehicle Number': 'HR38AA0549',
+      'Material Description': 'CCBOX AMAZING VODKA PLAIN KRAFT-180ML',
+      'Driver Name': 'VIVEK',
+      'Driver Mobile Number': '9675121129',
+      Status: 'OUTSIDE',
+      'Vehicle Reported At': '27/06/2023 16:08',
+      Category: 'Package Unload',
+      'Outside Parking TAT(HH:MM)': '',
+      'Plant In Date Time': '27/06/2023 16:08',
+      'Weighbridge State TAT (Pre Unloading)(HH:MM)': '01:39',
+      'Main Parking State Tat(HH:MM)': '00:39',
+      'Reserve Parking Stages (Pre Unloading)': 'IGL Main Road,Pet Resin Unloading',
+      'Reserve Parking TAT (Pre Unloading)(HH:MM)': '00:03',
+      'Unloading State Name': 'Packaging Store & Parking',
+      'Unloading State In Time': '27/06/2023 17:51',
+      'Unloading State Out Time': '29/06/2023 10:05',
+      'Unloading State TAT(HH:MM)': '40:13',
+      'Weighbridge State TAT (Post Unloading)(HH:MM)': '',
+      'Reserve Parking Stages (Post Unloading)': 'Pet Resin Unloading,IGL Main Road,Molasses Unloading',
+      'Reserve Parking TAT (Post Unloading)(HH:MM)': '00:12',
+      'Plant Out Date Time': '29/06/2023 15:20',
+      'Plant TAT(HH:MM)': '47:11',
+      Plant: 'GPLI',
+      'PO No_1': '6400048185',
+      'Purchase Group': 'S49',
+      'MRN No': '5001690704',
+      'MRN Date': '2023-06-24',
+      "MRN Lineitem No's": '1,2',
+      'Challan No': 'BHI/23-24/1546',
+      'Challan Date': '2023-06-27',
+      'No of Packet_1': '0',
+      'Nature of Packet_1': '',
+      'Transporter GR No': '1826',
+      'GR Date': '2023-06-24',
+      'Item Code_1': '000000003559608069',
+      'Material Type_1': 'VERP',
+      UNIT_1: 'PAK',
+      Qty_1: ''
+    }
+  ],
+  summaryHtml: '\n' +
+    '            <html>\n' +
+    '            <head>\n' +
+    '                <style>\n' +
+    '                table,tbody,th,td {\n' +
+    '                border: 1px solid black;\n' +
+    '                border-collapse: collapse;\n' +
+    '                width: 900px;\n' +
+    '                margin-left: auto;\n' +
+    '                margin-right: auto;\n' +
+    '                }\n' +
+    '                th, td {\n' +
+    '                padding: 2px;\n' +
+    '                text-align: center;\n' +
+    '                }\n' +
+    '                </style>\n' +
+    '                </head>\n' +
+    '                <body>\n' +
+    '                <table>\n' +
+    '                <tr>\n' +
+    '                <th style="background-color: #4AEDCE;">Category</th>\n' +
+    '                <th style="background-color: #01BDE0;"><12 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">12-16 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">16-24 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">24-36 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">36-48 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">48-60 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">>60 hrs</th>\n' +
+    '                <th style="background-color: #01BDE0;">Grand Total</th>\n' +
+    '                </tr>\n' +
+    '                \n' +
+    '                    <tr>\n' +
+    '                    <th style="background-color: #4AEDCE;">Rice Husk</th>\n' +
+    '                    <td>5</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>5</td>\n' +
+    '                    </tr>\n' +
+    '    \n' +
+    '                    <tr>\n' +
+    '                    <th style="background-color: #4AEDCE;">Package Unload</th>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>3</td>\n' +
+    '                    </tr>\n' +
+    '    \n' +
+    '                    <tr>\n' +
+    '                    <th style="background-color: #4AEDCE;">Molasses</th>\n' +
+    '                    <td>13</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>13</td>\n' +
+    '                    </tr>\n' +
+    '    \n' +
+    '                    <tr>\n' +
+    '                    <th style="background-color: #4AEDCE;">Empty Bottle Point-1</th>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>3</td>\n' +
+    '                    </tr>\n' +
+    '    \n' +
+    '                    <tr>\n' +
+    '                    <th style="background-color: #4AEDCE">Grand Total</th>\n' +
+    '                    <td>20</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>1</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>0</td>\n' +
+    '                    <td>24</td>\n' +
+    '                    </tr>\n' +
+    '    \n' +
+    '                </table>\n' +
+    '                </body>\n' +
+    '            </html>\n' +
+    '    '
+}

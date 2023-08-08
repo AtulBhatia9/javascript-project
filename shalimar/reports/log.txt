@@ -1,0 +1,1278 @@
+{
+    "approvalDate": 1690173049180,
+    "documents": [],
+    "customFields": [
+        {
+            "indexedValue": [
+                "Approved By_Vaibhav Agnihotri"
+            ],
+            "fieldKey": "Approved By",
+            "multiple": false,
+            "description": "",
+            "remark": "",
+            "uuid": null,
+            "required": false,
+            "accessType": null,
+            "input": null,
+            "unit": "",
+            "valueType": "string",
+            "options": [],
+            "fieldType": "text",
+            "value": "Vaibhav Agnihotri",
+            "isRemark": false
+        }
+    ],
+    "physicalBillStatus": "PENDING",
+    "totalAdvancePaid": null,
+    "billFeedingType": "PerShipment",
+    "updates": {
+        "traceID": "ff0a4e70-9c41-45c5-a2b6-0637c5cc73bd",
+        "resourceId": "d4c2859a-e318-4585-8996-c7a1c4a14509",
+        "updatedBy": "USER",
+        "changes": null,
+        "sourceOfInformation": null,
+        "description": "Added Approved By : Vaibhav Agnihotri",
+        "forwardReasons": [
+            "vendor.bill.cfs.updated.event"
+        ],
+        "userId": "a42e539c-88f3-42cf-a1e7-d13e0b60833d",
+        "uuid": "2c31a510-28f9-402f-a105-1491678160d4",
+        "revision": 1,
+        "time": 1690173049252,
+        "forwardedFrom": "Approved By",
+        "resourceType": "Vendor Bill",
+        "updateType": null
+    },
+    "uuid": "d4c2859a-e318-4585-8996-c7a1c4a14509",
+    "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+    "lineItems": [
+        {
+            "costs": [
+                {
+                    "amount": 50000,
+                    "charge": {
+                        "amount": 50000,
+                        "amountByVendor": null,
+                        "rate": 2000,
+                        "billingType": [
+                            "VendorBill",
+                            "Invoice",
+                            "DebitNote",
+                            "CreditNote"
+                        ],
+                        "chartsOfAccount": {
+                            "name": "Vendor Expense",
+                            "accountGroup": "Expense",
+                            "type": "Other Expense",
+                            "accountPath": [
+                                "Expense",
+                                "Other Expense",
+                                "d55fea5c-81ad-4b28-8045-d236f2215ec9"
+                            ],
+                            "uuid": "d55fea5c-81ad-4b28-8045-d236f2215ec9"
+                        },
+                        "name": "Freight Payable",
+                        "rateUnit": "perMT",
+                        "uuid": "5b7e378a-5f3e-40ae-abc3-e1d048aeaa94_495b8728-c761-4fa7-83fe-db75a7d63221",
+                        "base": 25,
+                        "applicableFor": null
+                    },
+                    "billItemId": null,
+                    "billFeedingType": "PerShipment",
+                    "updates": {
+                        "traceID": "84350b2c-aa2d-4d8c-868c-3b4e243457f3",
+                        "resourceId": "558bdd52-cafc-4e97-98e8-7d24653eeddc",
+                        "updatedBy": "USER",
+                        "changes": [],
+                        "sourceOfInformation": null,
+                        "description": "Added Charge Freight Payable With Amount 50000.0",
+                        "forwardReasons": [],
+                        "userId": "03f4ce20-73c8-4ff6-b03a-d34d686f5a21",
+                        "uuid": "30fad652-b5a6-4996-8c81-34219b1a0574",
+                        "revision": 0,
+                        "time": 1690172925066,
+                        "forwardedFrom": null,
+                        "resourceType": "ShipmentCost",
+                        "updateType": null
+                    },
+                    "uuid": "17fa0acd-3377-433a-854e-b6babbf4a98a",
+                    "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                    "lineItems": [],
+                    "distributionBasis": "Weight",
+                    "shipmentId": "558bdd52-cafc-4e97-98e8-7d24653eeddc",
+                    "vendor": {
+                        "gstn": null,
+                        "name": "Vaibhav test",
+                        "externalId": null,
+                        "type": "vendor",
+                        "uuid": "bed6ddca-12bb-496f-a025-642db1891802",
+                        "group": {
+                            "name": "lorryOwner",
+                            "partnerType": null,
+                            "uuid": null,
+                            "orgId": null
+                        }
+                    },
+                    "billId": null,
+                    "billStatus": null,
+                    "applicability": "Shipment"
+                }
+            ],
+            "cfs": [],
+            "amount": 50000,
+            "gstInfo": [],
+            "amountByVendor": 50000,
+            "entityCfs": [
+                {
+                    "indexedValue": [
+                        "Shipment Number_FRETAB000000027"
+                    ],
+                    "fieldKey": "Shipment Number",
+                    "multiple": false,
+                    "description": null,
+                    "remark": null,
+                    "uuid": null,
+                    "required": false,
+                    "accessType": null,
+                    "input": "string",
+                    "unit": null,
+                    "valueType": "string",
+                    "options": null,
+                    "fieldType": "string",
+                    "value": "FRETAB000000027",
+                    "isRemark": false
+                },
+                {
+                    "indexedValue": [
+                        "Vehicle Number_HR27DZ2345"
+                    ],
+                    "fieldKey": "Vehicle Number",
+                    "multiple": false,
+                    "description": null,
+                    "remark": null,
+                    "uuid": null,
+                    "required": false,
+                    "accessType": null,
+                    "input": "string",
+                    "unit": null,
+                    "valueType": "string",
+                    "options": null,
+                    "fieldType": "string",
+                    "value": "HR27DZ2345",
+                    "isRemark": false
+                }
+            ],
+            "entityInfo": {
+                "resourceId": "558bdd52-cafc-4e97-98e8-7d24653eeddc",
+                "resourceIdentifier": "FRETAB000000027",
+                "resourceExternalId": null,
+                "resourceType": "Shipment"
+            },
+            "uuid": "f304a6b0-5a9c-4901-8fbb-159169d8dd8c",
+            "remarks": null,
+            "externalRemarks": null
+        }
+    ],
+    "accountStatus": "OPEN",
+    "isOverDue": false,
+    "vendor": {
+        "gstn": null,
+        "name": "Vaibhav test",
+        "externalId": null,
+        "type": "vendor",
+        "uuid": "bed6ddca-12bb-496f-a025-642db1891802",
+        "group": {
+            "name": "lorryOwner",
+            "partnerType": "vendor",
+            "uuid": "1ed416bf-7c60-43e9-89d2-5570e941de4d",
+            "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221"
+        }
+    },
+    "overDueAt": null,
+    "onHoldReason": null,
+    "amount": 50000,
+    "amountByVendor": 50000,
+    "totalPaid": 50000,
+    "billDate": 1690173003863,
+    "tax": null,
+    "billingStatus": "PAID",
+    "chargeMechanism": "RCM",
+    "gstInfo": [],
+    "billCreationTime": 1690173031321,
+    "totalPayable": 50000,
+    "billingBranch": {
+        "companyCode": null,
+        "address": "Unnamed Road, Ranjangaon MIDC, Maharashtra 412220, India",
+        "updatedBy": null,
+        "customFields": null,
+        "regionName": null,
+        "externalId": null,
+        "branchName": null,
+        "type": [
+            "IT",
+            "Operation",
+            "Sales",
+            ""
+        ],
+        "updates": null,
+        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+        "areaId": null,
+        "geoLocation": [
+            74.26813586937362,
+            18.77741389785396
+        ],
+        "regionId": null,
+        "areaName": null,
+        "name": "Britannia Industries Ltd",
+        "zoneId": null,
+        "_id": "9b16b5bf-03c8-49c1-b3c8-7a8524956276",
+        "zoneName": null,
+        "contacts": [],
+        "officeType": null,
+        "materialServices": null
+    },
+    "billNumber": "VB_0010000031",
+    "ticketId": null,
+    "status": "CREATED"
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+{
+    "approvalDate": null,
+    "documents": [],
+    "customFields": [
+        {
+            "indexedValue": [
+                "Approved By_Ram "
+            ],
+            "fieldKey": "Approved By",
+            "multiple": false,
+            "description": "",
+            "remark": "",
+            "uuid": null,
+            "required": false,
+            "accessType": null,
+            "input": null,
+            "unit": "",
+            "valueType": "string",
+            "options": [],
+            "fieldType": "text",
+            "value": "Ram ",
+            "isRemark": false
+        }
+    ],
+    "physicalBillStatus": "PENDING",
+    "totalAdvancePaid": null,
+    "billFeedingType": "PerShipment",
+    "updates": {
+        "traceID": "3c0adba1-76d5-442f-a805-67c9a01b6970",
+        "resourceId": "abf14897-c780-4a9a-a665-9f134245645f",
+        "updatedBy": "USER",
+        "changes": [],
+        "sourceOfInformation": null,
+        "description": "updated Vendor Bill",
+        "forwardReasons": [
+            "vendor.bill.updated"
+        ],
+        "userId": "0fd6a7ac-5a2a-42ec-8fb2-bf368cf382c7",
+        "uuid": "63fbe7c0-8bd3-4818-87be-022e408dac48",
+        "revision": 4,
+        "time": 1686742228748,
+        "forwardedFrom": "",
+        "resourceType": "Vendor Bill",
+        "updateType": "PLANNED"
+    },
+    "uuid": "abf14897-c780-4a9a-a665-9f134245645f",
+    "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+    "lineItems": [
+        {
+            "costs": [
+                {
+                    "amount": 12000,
+                    "charge": {
+                        "amount": 12000,
+                        "amountByVendor": null,
+                        "rate": 1200,
+                        "chartsOfAccount": {
+                            "name": "Cost of Goods Sold",
+                            "accountGroup": "Expense",
+                            "type": "Cost Of Goods Sold",
+                            "accountPath": [
+                                "Expense",
+                                "Cost Of Goods Sold",
+                                "costofgoodssold"
+                            ],
+                            "uuid": "costofgoodssold"
+                        },
+                        "name": "Freight",
+                        "rateUnit": "perMT",
+                        "uuid": "783a82be-0f44-40f2-8549-ac5e7e582318_495b8728-c761-4fa7-83fe-db75a7d63221",
+                        "base": 10
+                    },
+                    "billItemId": null,
+                    "billFeedingType": "PerShipment",
+                    "updates": {
+                        "traceID": "4b7c0713-2206-477e-892a-bdf6a439971b",
+                        "resourceId": "a1b2d6a6-146c-4e11-8e2f-d8a9c95e9f94",
+                        "updatedBy": "USER",
+                        "changes": [],
+                        "sourceOfInformation": null,
+                        "description": "Added Charge Freight With Amount 12000.0",
+                        "forwardReasons": [],
+                        "userId": "0fd6a7ac-5a2a-42ec-8fb2-bf368cf382c7",
+                        "uuid": "02ccd02f-4b30-4b7d-be44-30edfbd5826e",
+                        "revision": 0,
+                        "time": 1686212093924,
+                        "forwardedFrom": null,
+                        "resourceType": "ShipmentCost",
+                        "updateType": null
+                    },
+                    "uuid": "672b8bea-d8c5-4723-966e-b5ae5fb8ebfa",
+                    "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                    "lineItems": [],
+                    "distributionBasis": "Weight",
+                    "shipmentId": "a1b2d6a6-146c-4e11-8e2f-d8a9c95e9f94",
+                    "vendor": {
+                        "gstn": null,
+                        "name": "Sayan test",
+                        "externalId": null,
+                        "type": "vendor",
+                        "uuid": "f0db1a7a-fe00-4c94-81e4-206d88b75bc4",
+                        "group": {
+                            "name": "lorryOwner",
+                            "partnerType": "vendor",
+                            "uuid": "1ed416bf-7c60-43e9-89d2-5570e941de4d",
+                            "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221"
+                        }
+                    },
+                    "billId": null,
+                    "billStatus": null,
+                    "applicability": "Shipment"
+                },
+                {
+                    "amount": 10,
+                    "charge": {
+                        "amount": 10,
+                        "amountByVendor": null,
+                        "rate": 1,
+                        "chartsOfAccount": {
+                            "name": "Cost of Goods Sold",
+                            "accountGroup": "Expense",
+                            "type": "Cost Of Goods Sold",
+                            "accountPath": [
+                                "Expense",
+                                "Cost Of Goods Sold",
+                                "costofgoodssold"
+                            ],
+                            "uuid": "costofgoodssold"
+                        },
+                        "name": "Freight 1",
+                        "rateUnit": "perMT",
+                        "uuid": "c59d705a-1115-4a37-acac-f1dce3c7207c",
+                        "base": 10
+                    },
+                    "billItemId": null,
+                    "billFeedingType": "PerShipment",
+                    "updates": {
+                        "traceID": "58fb51ec-f23e-4c91-9aad-e55f4fe1520b",
+                        "resourceId": "a1b2d6a6-146c-4e11-8e2f-d8a9c95e9f94",
+                        "updatedBy": "USER",
+                        "changes": [],
+                        "sourceOfInformation": null,
+                        "description": "Added Charge Freight 1 With Amount 10.0",
+                        "forwardReasons": [],
+                        "userId": "ab877322-0088-48ed-9761-9f7e5f21193e",
+                        "uuid": "d79fccf3-bb5f-4ffb-a1bc-025d97632c76",
+                        "revision": 0,
+                        "time": 1686221820984,
+                        "forwardedFrom": null,
+                        "resourceType": "ShipmentCost",
+                        "updateType": null
+                    },
+                    "uuid": "36a6b8e6-6f69-4af0-850d-921a906a8f25",
+                    "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                    "lineItems": [],
+                    "distributionBasis": "Weight",
+                    "shipmentId": "a1b2d6a6-146c-4e11-8e2f-d8a9c95e9f94",
+                    "vendor": {
+                        "gstn": null,
+                        "name": "Sayan test",
+                        "externalId": null,
+                        "type": "vendor",
+                        "uuid": "f0db1a7a-fe00-4c94-81e4-206d88b75bc4",
+                        "group": {
+                            "name": "lorryOwner",
+                            "partnerType": null,
+                            "uuid": null,
+                            "orgId": null
+                        }
+                    },
+                    "billId": null,
+                    "billStatus": null,
+                    "applicability": "Shipment"
+                }
+            ],
+            "cfs": [],
+            "amount": 12010,
+            "gstInfo": [],
+            "amountByVendor": 12010,
+            "entityCfs": [
+                {
+                    "indexedValue": [
+                        "Shipment Number_FRETSH000000445"
+                    ],
+                    "fieldKey": "Shipment Number",
+                    "multiple": false,
+                    "description": null,
+                    "remark": null,
+                    "uuid": null,
+                    "required": false,
+                    "accessType": null,
+                    "input": "string",
+                    "unit": null,
+                    "valueType": "string",
+                    "options": null,
+                    "fieldType": "string",
+                    "value": "FRETSH000000445",
+                    "isRemark": false
+                },
+                {
+                    "indexedValue": [
+                        "Vehicle Number_WB01AB0101"
+                    ],
+                    "fieldKey": "Vehicle Number",
+                    "multiple": false,
+                    "description": null,
+                    "remark": null,
+                    "uuid": null,
+                    "required": false,
+                    "accessType": null,
+                    "input": "string",
+                    "unit": null,
+                    "valueType": "string",
+                    "options": null,
+                    "fieldType": "string",
+                    "value": "WB01AB0101",
+                    "isRemark": false
+                }
+            ],
+            "entityInfo": {
+                "resourceId": "a1b2d6a6-146c-4e11-8e2f-d8a9c95e9f94",
+                "resourceIdentifier": "FRETSH000000445",
+                "resourceExternalId": null,
+                "resourceType": null
+            },
+            "uuid": "37d7b17e-791a-46b3-8e66-c74a8d9efac9",
+            "remarks": null,
+            "externalRemarks": null
+        }
+    ],
+    "accountStatus": "OPEN",
+    "isOverDue": true,
+    "vendor": {
+        "gstn": null,
+        "name": "Sayan test",
+        "externalId": null,
+        "type": "vendor",
+        "uuid": "f0db1a7a-fe00-4c94-81e4-206d88b75bc4",
+        "group": {
+            "name": "lorryOwner",
+            "partnerType": "vendor",
+            "uuid": "1ed416bf-7c60-43e9-89d2-5570e941de4d",
+            "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221"
+        }
+    },
+    "overDueAt": 1686828628757,
+    "onHoldReason": null,
+    "amount": 12010,
+    "amountByVendor": 12010,
+    "totalPaid": null,
+    "billDate": 1686913057000,
+    "tax": {
+        "payableAccount": {
+            "accountCode": null,
+            "documents": [],
+            "accountGroup": null,
+            "description": null,
+            "type": null,
+            "accountPath": [],
+            "isActive": true,
+            "uuid": null,
+            "parentId": null,
+            "orgId": null,
+            "isInternal": false,
+            "isSystemAccount": false,
+            "name": null
+        },
+        "amount": 0,
+        "receivableAccount": {
+            "accountCode": null,
+            "documents": [],
+            "accountGroup": null,
+            "description": null,
+            "type": null,
+            "accountPath": [],
+            "isActive": true,
+            "uuid": null,
+            "parentId": null,
+            "orgId": null,
+            "isInternal": false,
+            "isSystemAccount": false,
+            "name": null
+        },
+        "rate": null,
+        "name": null,
+        "higherTaxReason": null,
+        "section": null,
+        "type": "TDS",
+        "uuid": null,
+        "higherTaxRateApplicable": false,
+        "orgId": null
+    },
+    "billingStatus": "PENDING",
+    "chargeMechanism": "RCM",
+    "gstInfo": [],
+    "billCreationTime": 1686221861796,
+    "totalPayable": 12010,
+    "billingBranch": {
+        "address": "Unnamed Road, Ranjangaon MIDC, Maharashtra 412220, India",
+        "updatedBy": null,
+        "customFields": null,
+        "regionName": null,
+        "externalId": null,
+        "branchName": null,
+        "type": [
+            "IT",
+            "Operation",
+            "Sales",
+            ""
+        ],
+        "updates": null,
+        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+        "geoLocation": null,
+        "regionId": null,
+        "name": "Britannia Industries Ltd",
+        "zoneId": null,
+        "_id": "9b16b5bf-03c8-49c1-b3c8-7a8524956276",
+        "zoneName": null,
+        "contacts": [],
+        "officeType": null,
+        "materialServices": null
+    },
+    "billNumber": "VB_0010000018",
+    "ticketId": null,
+    "status": "PLANNED"
+}
+fetch the count for whose billingStatus is "Pending" and store it inside the variable Pending invoice
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+{
+    "creationTime": 1689937560571,
+    "customFields": [],
+    "transportationMode": "ByRoad",
+    "freightUnitLineItemId": "c0fb0114-cd34-47d3-9f3c-6abf00b5d90f",
+    "lastSyncUpTime": 1689937560571,
+    "updates": {},
+    "isActive": true,
+    "uuid": "0296e3fa-d7df-459f-a372-a20e91a8e790",
+    "issues": null,
+    "branch": {
+        "companyCode": null,
+        "address": "Patiala, Punjab, India",
+        "updatedBy": null,
+        "customFields": null,
+        "regionName": null,
+        "externalId": null,
+        "branchName": null,
+        "type": [
+            "IT",
+            "Operation",
+            "Sales"
+        ],
+        "updates": null,
+        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+        "areaId": null,
+        "geoLocation": null,
+        "regionId": null,
+        "areaName": null,
+        "name": "CRD",
+        "zoneId": null,
+        "_id": "46957e5a-c2c0-4d9e-b01c-fb93078347c6",
+        "zoneName": null,
+        "contacts": [],
+        "officeType": null,
+        "materialServices": null
+    },
+    "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+    "shipmentType": "DirectLeg",
+    "completionTime": null,
+    "orderNumbers": [
+        "NAAC0000037"
+    ],
+    "fleetInfo": {},
+    "syncUpDueTime": 1784545560573,
+    "billingStatus": null,
+    "currentLocation": null,
+    "alerts": [],
+    "equipments": null,
+    "tripType": "Shipment",
+    "lastDelayCalculationTime": null,
+    "delayReasonUpdateDueTime": null,
+    "locationTrackingStatus": "DUE",
+    "poLineItemId": "33c9cfb5-5bcf-482a-aa02-2830cb3e7334",
+    "consignments": [],
+    "customContacts": null,
+    "shipmentStages": [],
+    "remarks": null,
+    "syncUpExpiryTime": null,
+    "shipmentStatus": "Completed"
+}
+find the count whose shipmentStatus is completed 
+////////////////////////////////////////////////////////////////////////////
+{
+    "data": {
+        "consignment": {
+            "salesOrderId": null,
+            "fuLineItemIds": null,
+            "pod": {
+                "receivedBy": "COMPLETED",
+                "unloadingFinishDate": 1690121956392,
+                "documents": [
+                    {
+                        "resourceId": "60687872-1d28-4628-ad42-298b924e1d0c",
+                        "customFields": null,
+                        "downloadUrl": "https://storage.googleapis.com/fretron-document-bucket/uploads/495b8728-c761-4fa7-83fe-db75a7d63221/12911b40-3ee7-4ade-81ac-622800f071b3@E-pod-summary.jpg?GoogleAccessId=cloud-storage-service@fretron-206223.iam.gserviceaccount.com&Expires=2554191048&Signature=ESfZoSkAM1G7X3JisRsiIFj0CfcGIbcwQi6mpEhgt3TO8qsNYsLs54hRwRlvgC7WpFjY2I7npCf3Rq5TA4tPBjbuhjA%2FbXuYm499IfGR4sLQAYyE9FuxFrAZTqYKDHCMYUuXlziCnfbZjRzXRqLysTda125MzHlH7l%2Bb1Fl6yUpSL%2F9D1yL6BNkRNrC4lcng0pxy46wy97h5gW4a9YNPTd2o2bGFEBK6BGRtdtvoKGbcAlqWYepSpuvJRttMpFWkRTIoc9O1J2YXkaGWlH3nkui9kgDrIxOrQppSHE5WZ7I7oEl6olddp04%2FzikVejb8LKdNypyiysFCKFiiML8mzg%3D%3D",
+                        "updates": {
+                            "traceID": "dfe3377d-ef21-4c1b-b08e-c75b513750d1",
+                            "resourceId": "12911b40-3ee7-4ade-81ac-622800f071b3",
+                            "updatedBy": "USER",
+                            "changes": null,
+                            "sourceOfInformation": "created",
+                            "description": "document created",
+                            "forwardReasons": [
+                                "document.added"
+                            ],
+                            "userId": "60a0968a-cd4d-4f33-8e97-18dc065e7477",
+                            "uuid": "a812c212-37a0-4f53-a5d6-03d96c2db6b8",
+                            "revision": null,
+                            "time": 1690191048494,
+                            "forwardedFrom": null,
+                            "resourceType": "Document",
+                            "updateType": null
+                        },
+                        "uuid": "12911b40-3ee7-4ade-81ac-622800f071b3",
+                        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                        "docPath": "/uploads/495b8728-c761-4fa7-83fe-db75a7d63221/12911b40-3ee7-4ade-81ac-622800f071b3@E-pod-summary.jpg",
+                        "createdAt": 1690191048494,
+                        "isExpirable": false,
+                        "previewString": null,
+                        "createdBy": "60a0968a-cd4d-4f33-8e97-18dc065e7477",
+                        "name": "E-pod-summary.jpg",
+                        "expireDate": null,
+                        "resourceType": "SHIPMENT_POD"
+                    },
+                    {
+                        "resourceId": "60687872-1d28-4628-ad42-298b924e1d0c",
+                        "customFields": null,
+                        "downloadUrl": "https://storage.googleapis.com/fretron-document-bucket/uploads/495b8728-c761-4fa7-83fe-db75a7d63221/4b185bd0-263c-4089-b547-306574b3d43c@14.18.51.jpeg?GoogleAccessId=cloud-storage-service@fretron-206223.iam.gserviceaccount.com&Expires=2554121934&Signature=oiOFrEpbqMHynkjSACv6UDQzAXbNZBODppF63OF%2FsrGVacPRodtJKeBwexlYBjR5kvtJiqZiaEwv8yxmBD9uKwmtlg%2FipeBYW6YPQVV9CoXYGXvGnN3tmWM8bglDPgC96sMVzcFcme6gbWWIsKS%2FBGrfShTfw%2FO2mV0pwpTCPQ5n5wF8odCT5NNzL2cN8fw7AjJOyKztvf%2B%2FX0GpX4Z468a9%2Bx4o3IWd7HqztdIACCAqPCgXc3X%2FbQrLnQQlYmrIZXtdiO0CkTC%2FgFUnPZcv%2BjiY2XPLxl%2F%2BMUxM4JqNDH7Zha7hRubgOUO8BbSXWdpfqtgeYOIqqyGXpGTFgOcD4Q%3D%3D",
+                        "updates": {
+                            "traceID": "fcdca0a8-f7aa-4851-af4e-5c6563dc80ad",
+                            "resourceId": "4b185bd0-263c-4089-b547-306574b3d43c",
+                            "updatedBy": "USER",
+                            "changes": null,
+                            "sourceOfInformation": "created",
+                            "description": "document created",
+                            "forwardReasons": [
+                                "document.added"
+                            ],
+                            "userId": "03f4ce20-73c8-4ff6-b03a-d34d686f5a21",
+                            "uuid": "bee63318-9c83-4b36-b602-39c27c02f40f",
+                            "revision": null,
+                            "time": 1690121934945,
+                            "forwardedFrom": null,
+                            "resourceType": "Document",
+                            "updateType": null
+                        },
+                        "uuid": "4b185bd0-263c-4089-b547-306574b3d43c",
+                        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                        "docPath": "/uploads/495b8728-c761-4fa7-83fe-db75a7d63221/4b185bd0-263c-4089-b547-306574b3d43c@14.18.51.jpeg",
+                        "createdAt": 1690121934945,
+                        "isExpirable": false,
+                        "previewString": null,
+                        "createdBy": "03f4ce20-73c8-4ff6-b03a-d34d686f5a21",
+                        "name": "Front_WhatsApp Image 2023-07-13 at 14.18.51.jpeg",
+                        "expireDate": null,
+                        "resourceType": "SHIPMENT_POD"
+                    },
+                    {
+                        "resourceId": "60687872-1d28-4628-ad42-298b924e1d0c",
+                        "customFields": null,
+                        "downloadUrl": "https://storage.googleapis.com/fretron-document-bucket/uploads/495b8728-c761-4fa7-83fe-db75a7d63221/d4811450-26ce-4f85-ba66-c13605177e54@14.11.44.jpeg?GoogleAccessId=cloud-storage-service@fretron-206223.iam.gserviceaccount.com&Expires=2554121942&Signature=mwVwOMxFuab9P9JuTBi8NjAlEIItCavYsBfRwiVX8dd0z38CZHjW5G7iUobrIwAFcm1cn5r6NcqGEyupd3pKiifOkTOGw5yJuq7twCzevI6jC7IeOajGuK8GNt%2FEA4icP2XqBjQiae3SnJSwBNKP%2BegZNjkWsC72T8VY1y7A%2BmEPNnnAa79Pmsey2QUTrKAv%2F6Xy9ltDemRljyd9FbWNLPYmnEp6e%2FdYiVPnspQsu%2BNpPpCay%2F4VcBb15%2BopNq8nevYdIzE3AMIdgP7b1gPuyr7iKAT7k6Cbd3AOuuWPwxZV6CBAOxByo1XubUSO%2B6vNCLMp0NswFavKBdtSz6IajA%3D%3D",
+                        "updates": {
+                            "traceID": "bda83a7e-0c19-42a7-8efe-726b6652909a",
+                            "resourceId": "d4811450-26ce-4f85-ba66-c13605177e54",
+                            "updatedBy": "USER",
+                            "changes": null,
+                            "sourceOfInformation": "created",
+                            "description": "document created",
+                            "forwardReasons": [
+                                "document.added"
+                            ],
+                            "userId": "03f4ce20-73c8-4ff6-b03a-d34d686f5a21",
+                            "uuid": "7983adc3-9457-4b2e-9613-91a75e6d5893",
+                            "revision": null,
+                            "time": 1690121942483,
+                            "forwardedFrom": null,
+                            "resourceType": "Document",
+                            "updateType": null
+                        },
+                        "uuid": "d4811450-26ce-4f85-ba66-c13605177e54",
+                        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                        "docPath": "/uploads/495b8728-c761-4fa7-83fe-db75a7d63221/d4811450-26ce-4f85-ba66-c13605177e54@14.11.44.jpeg",
+                        "createdAt": 1690121942483,
+                        "isExpirable": false,
+                        "previewString": null,
+                        "createdBy": "03f4ce20-73c8-4ff6-b03a-d34d686f5a21",
+                        "name": "Back_WhatsApp Image 2023-07-13 at 14.11.44.jpeg",
+                        "expireDate": null,
+                        "resourceType": "SHIPMENT_POD"
+                    }
+                ],
+                "trackingDetail": {
+                    "currentStateDetail": null,
+                    "nextStateDetail": null,
+                    "nextStateExpectedTime": null,
+                    "trackingRemark": null,
+                    "nextState": null,
+                    "currentState": "COMPLETED",
+                    "currentStateSince": 1690121920600
+                },
+                "consignmentId": "7edaf56e-87fd-4f99-a092-b4e51b15a2ea",
+                "receiveDate": 1690121920600,
+                "externalId": null,
+                "submissionDate": 1690121953375,
+                "expectedSubmissionDate": 1690137000000,
+                "feedingStatus": "CREATED",
+                "updates": null,
+                "type": "POD",
+                "issues": [
+                    ""
+                ],
+                "uuid": "60687872-1d28-4628-ad42-298b924e1d0c",
+                "customField": [],
+                "deliveryItems": null,
+                "unloadingStartDate": 1690121895875,
+                "vehicleReleaseDate": null,
+                "shipmentId": null,
+                "reportingDate": 1690121885886,
+                "submissionPlace": "HISAR (IND.)",
+                "remarks": "",
+                "status": "SUBMITTED"
+            },
+            "customFields": [
+                {
+                    "indexedValue": [
+                        "ScanWayBill_YES"
+                    ],
+                    "fieldKey": "ScanWayBill",
+                    "multiple": true,
+                    "description": "ScanWayBill",
+                    "remark": "",
+                    "uuid": null,
+                    "required": false,
+                    "accessType": "internal",
+                    "input": "",
+                    "unit": "",
+                    "valueType": "string",
+                    "options": null,
+                    "fieldType": "string",
+                    "value": "YES",
+                    "isRemark": false
+                },
+                {
+                    "indexedValue": [
+                        "DeliveryType_DeliveryPoint"
+                    ],
+                    "fieldKey": "DeliveryType",
+                    "multiple": true,
+                    "description": "DeliveryType",
+                    "remark": "",
+                    "uuid": null,
+                    "required": false,
+                    "accessType": "internal",
+                    "input": "",
+                    "unit": "",
+                    "valueType": "string",
+                    "options": null,
+                    "fieldType": "string",
+                    "value": "DeliveryPoint",
+                    "isRemark": false
+                }
+            ],
+            "loadInfo": {
+                "material": "Britannia Cake ",
+                "valueOfGoods": 100000,
+                "standardMeasurement": {
+                    "volume": null,
+                    "packageMeasurement": null,
+                    "weight": {
+                        "actualDeliveredQuantity": null,
+                        "density": null,
+                        "netQuantity": 25,
+                        "moisture": null,
+                        "claimQuantity": null,
+                        "unitOfMeasurment": "Metric Tonnes",
+                        "standardQuantity": 25,
+                        "actualLoadedQuantity": null,
+                        "measurmentType": "weight",
+                        "grossQuantity": 25,
+                        "shortage": null,
+                        "temperature": null,
+                        "plannedLoadQuantity": 25,
+                        "frieghtDeductableQuantity": null
+                    },
+                    "containers": null,
+                    "trucks": null
+                },
+                "currency": null,
+                "measurements": [
+                    {
+                        "actualDeliveredQuantity": null,
+                        "density": null,
+                        "netQuantity": 25,
+                        "moisture": null,
+                        "claimQuantity": null,
+                        "unitOfMeasurment": "Metric Tonnes",
+                        "standardQuantity": 25,
+                        "actualLoadedQuantity": null,
+                        "measurmentType": "weight",
+                        "grossQuantity": 25,
+                        "shortage": null,
+                        "temperature": null,
+                        "plannedLoadQuantity": null,
+                        "frieghtDeductableQuantity": null
+                    }
+                ]
+            },
+            "customerPsnNo": null,
+            "invoiceValue": "100000.0",
+            "updates": {
+                "traceID": "cnpod_2_1229122",
+                "resourceId": "7edaf56e-87fd-4f99-a092-b4e51b15a2ea",
+                "updatedBy": "USER",
+                "changes": null,
+                "sourceOfInformation": null,
+                "description": "Updated Pod Details",
+                "forwardReasons": [
+                    "consignment.pod.updated.event",
+                    "pod.documents.uploaded"
+                ],
+                "userId": "60a0968a-cd4d-4f33-8e97-18dc065e7477",
+                "uuid": "410d6ecd-afa8-40ab-9f26-abf0bb4bd4b6",
+                "revision": 34,
+                "time": 1690191048707,
+                "forwardedFrom": null,
+                "resourceType": "Consignment",
+                "updateType": null
+            },
+            "uuid": "7edaf56e-87fd-4f99-a092-b4e51b15a2ea",
+            "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+            "consigner": {
+                "geoFence": null,
+                "documents": null,
+                "customFields": null,
+                "isPortalEnabled": true,
+                "type": "customer",
+                "updates": null,
+                "uuid": "d4b0c962-73b6-45e3-ae0f-c2c94e9e78b8",
+                "orgId": null,
+                "firmType": null,
+                "gstn": null,
+                "voterId": null,
+                "verificationTicketId": null,
+                "group": {
+                    "name": "Consignor",
+                    "partnerType": null,
+                    "uuid": null,
+                    "orgId": null
+                },
+                "address": null,
+                "verificationStatus": null,
+                "externalId": null,
+                "panNumber": "33",
+                "aadharNo": null,
+                "parentId": null,
+                "places": [
+                    {
+                        "hubId": null,
+                        "boundary": null,
+                        "address": null,
+                        "accessibility": null,
+                        "addedBy": null,
+                        "center": {
+                            "latitude": 18.777472662751137,
+                            "longitude": 74.2681284088798
+                        },
+                        "suggestedRadius": 0,
+                        "isOwned": null,
+                        "centerCoordinates": [
+                            74.2681284088798,
+                            18.777472662751137
+                        ],
+                        "placeId": "2c6e1457-f74a-4f05-abe4-d52be1217be8",
+                        "geoJsonBoundry": null,
+                        "externalId": null,
+                        "source": null,
+                        "places": null,
+                        "viewport": null,
+                        "district": null,
+                        "name": "Ranjangaon MIDC, Pune (HUB)",
+                        "state": null,
+                        "category": "Hub",
+                        "subDistrict": null,
+                        "controllingBranchId": null
+                    }
+                ],
+                "route": null,
+                "name": "Britannia Industries Ltd (Ranjangaon MIDC, Pune)",
+                "location": null,
+                "fretronId": null,
+                "contacts": null,
+                "status": "ACTIVE"
+            },
+            "lineItems": [
+                {
+                    "itemNumber": "1",
+                    "transportationServiceId": null,
+                    "material": {
+                        "unitOfMeasurement": null,
+                        "measuredQuantity": null,
+                        "partnerName": null,
+                        "materialType": "Material",
+                        "externalId": null,
+                        "updates": null,
+                        "taxCode": null,
+                        "uuid": "c5b0d7a8-d56e-49fa-8be9-65a84b6b8c15",
+                        "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                        "pricePerUnit": null,
+                        "materialDescription": null,
+                        "division": null,
+                        "controlCode": null,
+                        "materialGroup": "Cake ",
+                        "materialGroupId": "d4a33274-c341-4091-868c-90fee7141785",
+                        "name": "Britannia Cake ",
+                        "measurementType": null,
+                        "partnerId": null,
+                        "linkedMaterialId": null
+                    },
+                    "valueOfGoods": 100000,
+                    "customFields": [
+                        {
+                            "indexedValue": null,
+                            "fieldKey": "MappingUuid",
+                            "valueType": "string",
+                            "fieldType": "string",
+                            "value": "c6dcd3af-0acc-409b-8a90-0bce71d1f116",
+                            "definitionId": null
+                        }
+                    ],
+                    "externalId": null,
+                    "invoiceNo": null,
+                    "customerMaterial": {
+                        "unitOfMeasurement": null,
+                        "measuredQuantity": null,
+                        "partnerName": null,
+                        "materialType": null,
+                        "externalId": null,
+                        "updates": null,
+                        "taxCode": null,
+                        "uuid": "dummy",
+                        "orgId": null,
+                        "pricePerUnit": null,
+                        "materialDescription": null,
+                        "division": null,
+                        "controlCode": null,
+                        "materialGroup": null,
+                        "materialGroupId": null,
+                        "name": "Britannia Cake ",
+                        "measurementType": null,
+                        "partnerId": null,
+                        "linkedMaterialId": null
+                    },
+                    "uuid": "ad7b927e-be00-4e8e-8182-640c75ba6651"
+                }
+            ],
+            "pssNo": null,
+            "eWayBillNumber": null,
+            "billingType": null,
+            "podDocument": null,
+            "invoiceNo": null,
+            "deliveryDate": 1690121956392,
+            "associatedShipments": [
+                "fa15e409-e366-47ee-8f33-d61494c9897a"
+            ],
+            "originalEdd": null,
+            "consignee": {
+                "geoFence": null,
+                "documents": null,
+                "customFields": null,
+                "isPortalEnabled": true,
+                "type": "customer",
+                "updates": null,
+                "uuid": "fa3ec392-78d7-4833-9d0d-51d49114b379",
+                "orgId": null,
+                "firmType": null,
+                "gstn": null,
+                "voterId": null,
+                "verificationTicketId": null,
+                "group": {
+                    "name": "Consignee",
+                    "partnerType": null,
+                    "uuid": null,
+                    "orgId": null
+                },
+                "address": "{\"address\":null,\"city\":null,\"state\":null,\"pincode\":null}",
+                "verificationStatus": null,
+                "externalId": null,
+                "panNumber": "44",
+                "aadharNo": null,
+                "parentId": null,
+                "places": [
+                    {
+                        "hubId": null,
+                        "boundary": null,
+                        "address": null,
+                        "accessibility": null,
+                        "addedBy": null,
+                        "center": {
+                            "latitude": 19.29828393162154,
+                            "longitude": 73.06585834002286
+                        },
+                        "suggestedRadius": 0,
+                        "isOwned": null,
+                        "centerCoordinates": [
+                            73.06585834002286,
+                            19.29828393162154
+                        ],
+                        "placeId": "33ad0b9a-6af9-4aa3-8acc-67110992f994",
+                        "geoJsonBoundry": null,
+                        "externalId": null,
+                        "source": null,
+                        "places": null,
+                        "viewport": null,
+                        "district": null,
+                        "name": "Supermart Avenues Ltd (Bhiwandi)HUB",
+                        "state": null,
+                        "category": "Hub",
+                        "subDistrict": null,
+                        "controllingBranchId": null
+                    }
+                ],
+                "route": null,
+                "name": "Supermart Avenues Ltd (Bhiwandi)",
+                "location": null,
+                "fretronId": null,
+                "contacts": null,
+                "status": "ACTIVE"
+            },
+            "address": null,
+            "edd": null,
+            "salesOffice": {
+                "address": "Unnamed Road, Ranjangaon MIDC, Maharashtra 412220, India",
+                "updatedBy": null,
+                "customFields": null,
+                "regionName": null,
+                "externalId": null,
+                "branchName": null,
+                "type": [
+                    "IT",
+                    "Operation",
+                    "Sales",
+                    ""
+                ],
+                "updates": null,
+                "orgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+                "areaId": null,
+                "geoLocation": null,
+                "regionId": null,
+                "areaName": null,
+                "name": "Britannia ",
+                "zoneId": null,
+                "_id": "78e2fdb2-5809-440a-b677-309614bdc3a6",
+                "zoneName": null,
+                "contacts": [],
+                "officeType": null,
+                "materialServices": null
+            },
+            "consignmentDate": 1690137000000,
+            "externalId": null,
+            "eWayBillExpiryDate": null,
+            "activeShipment": null,
+            "consignmentNo": "00012",
+            "currentLocation": null,
+            "billToParty": null,
+            "equipments": null,
+            "orderMappings": [
+                {
+                    "quantity": {
+                        "volume": null,
+                        "packageMeasurement": null,
+                        "weight": {
+                            "actualDeliveredQuantity": null,
+                            "density": null,
+                            "netQuantity": 25,
+                            "moisture": null,
+                            "claimQuantity": null,
+                            "unitOfMeasurment": "Metric Tonnes",
+                            "standardQuantity": 25,
+                            "actualLoadedQuantity": null,
+                            "measurmentType": "weight",
+                            "grossQuantity": 25,
+                            "shortage": null,
+                            "temperature": null,
+                            "plannedLoadQuantity": 25,
+                            "frieghtDeductableQuantity": null
+                        },
+                        "containers": null,
+                        "trucks": null
+                    },
+                    "orderId": "42e6327c-6dc9-410a-81b6-261e18732841",
+                    "lineItemId": "e44280ed-ecda-4430-adf7-651a69079988",
+                    "legType": "PreLeg",
+                    "consignmentId": "7edaf56e-87fd-4f99-a092-b4e51b15a2ea",
+                    "originLegId": null,
+                    "isFullyUtilized": null,
+                    "consignmentLineItemId": "ad7b927e-be00-4e8e-8182-640c75ba6651",
+                    "source": "Order",
+                    "containerId": null,
+                    "uuid": "c6dcd3af-0acc-409b-8a90-0bce71d1f116",
+                    "fuMappings": [
+                        {
+                            "executionPlanId": null,
+                            "legType": "PreLeg",
+                            "fuLineItemId": "b788227b-5cbc-424e-a3fc-f0f80aa1e22b",
+                            "shipmentId": "fa15e409-e366-47ee-8f33-d61494c9897a",
+                            "legId": "PreLeg#1.0",
+                            "legStatus": "FINALIZED"
+                        }
+                    ]
+                }
+            ],
+            "contractId": null,
+            "workOrderNumber": null,
+            "trackingStatus": "Delivered at Supermart Avenues Ltd (Bhiwandi)HUB",
+            "eWayBillRegistrationDate": null,
+            "contractToParty": {
+                "geoFence": null,
+                "documents": null,
+                "customFields": null,
+                "isPortalEnabled": true,
+                "type": "customer",
+                "updates": null,
+                "uuid": "fa3ec392-78d7-4833-9d0d-51d49114b379",
+                "orgId": null,
+                "firmType": null,
+                "gstn": null,
+                "voterId": null,
+                "verificationTicketId": null,
+                "group": {
+                    "name": "Consignee",
+                    "partnerType": null,
+                    "uuid": null,
+                    "orgId": null
+                },
+                "address": "{\"address\":null,\"city\":null,\"state\":null,\"pincode\":null}",
+                "verificationStatus": null,
+                "externalId": null,
+                "panNumber": "44",
+                "aadharNo": null,
+                "parentId": null,
+                "places": null,
+                "route": null,
+                "name": "Supermart Avenues Ltd (Bhiwandi)",
+                "location": null,
+                "fretronId": null,
+                "contacts": null,
+                "status": "ACTIVE"
+            },
+            "invoiceStatus": "UnSettled",
+            "poNumber": null,
+            "status": "Delivered"
+        },
+        "shipments": {},
+    "error": null,
+    "status": 200
+}
+sh.consignment.pod.status
+//////////////////////////////////////////////////
+Invoice Created: {
+  'Britannia Industries Ltd': 4,
+  'Britannia ': 0,
+  CRD: 0,
+  'Random Office': 0,
+  'HISAR (IND.)': 0,
+  'JIndal saw': 0,
+  'Havells India Ltd (Katkewadi)': 1
+}
+Invoices Approved: {
+  'Britannia Industries Ltd': 1,
+  'Britannia ': 0,
+  CRD: 0,
+  'Random Office': 0,
+  'HISAR (IND.)': 0,
+  'JIndal saw': 0,
+  'Havells India Ltd (Katkewadi)': 1
+}
+Pending Invoice: {
+  'Britannia Industries Ltd': 1,
+  'Britannia ': 0,
+  CRD: 0,
+  'Random Office': 0,
+  'HISAR (IND.)': 0,
+  'JIndal saw': 0,
+  'Havells India Ltd (Katkewadi)': 0
+}
+Manual Tracking Count: {
+  'Britannia Industries Ltd': 2,
+  'Britannia ': 1,
+  CRD: 1,
+  'Random Office': 6,
+  'HISAR (IND.)': 2,
+  'JIndal saw': 1,
+  'Havells India Ltd (Katkewadi)': 1
+}
+SIM Tracking Count: { 'Britannia Industries Ltd': 1 }
+Shipment Delivered  {
+  'Britannia Industries Ltd': 2,
+  'Britannia ': 1,
+  'HISAR (IND.)': 1,
+  'Random Office': 3
+}
+POD submitted: {
+  'Britannia Industries Ltd': 2,
+  'Britannia ': 1,
+  'Random Office': 1,
+  'Havells India Ltd (Katkewadi)': 1
+}
+Pending POD: { 'Britanni"a Industries Ltd': 1, 'Random Office': 1 }
+Vehicle Placement Count: {
+  'Britannia Industries Ltd': 3,
+  'Britannia ': 1,
+  CRD: 1,
+  'Random Office': 7,
+  'HISAR (IND.)': 2,
+  'JIndal saw': 1,
+  'Havells India Ltd (Katkewadi)': 1
+}
+Delivered but Not Billed Invoice: { 'Britannia ': 1, 'Random Office': 3 }
+i am getting my response like this but i need it like
+[
+    {
+        Dispatch Location : "Branch name",
+        Invoice Created: "Count for it"
+        and same for the other variables
+    },
+    {
+        Dispatch Location : "Branch Name 2",
+
+    }
+]

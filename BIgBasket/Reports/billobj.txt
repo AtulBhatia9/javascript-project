@@ -1,0 +1,465 @@
+{
+    "creationTime": 1686564252916,
+    "customFields": null,
+    "transportationMode": "ByRoad",
+    "freightUnitLineItemId": null,
+    "lastSyncUpTime": 1686564252916,
+    "updates": {
+        "traceID": "tripPointEventsTopicByImei_6_17114916",
+        "resourceId": "59b67123-7d95-40e8-9d51-77f9dd1529ab",
+        "updatedBy": "USER",
+        "changes": null,
+        "sourceOfInformation": null,
+        "description": null,
+        "forwardReasons": [
+            "shipment.updated"
+        ],
+        "userId": "868ac373-ed4f-407d-9a26-b6b0e17fae1f",
+        "uuid": "966c2540-5220-43b2-97e7-e34b4cf2f3ac",
+        "revision": 0,
+        "time": 1686564253417,
+        "forwardedFrom": null,
+        "resourceType": "ShipmentObject",
+        "updateType": "Enroute For Pickup"
+    },
+    "isActive": true,
+    "uuid": "59b67123-7d95-40e8-9d51-77f9dd1529ab",
+    "issues": null,
+    "branch": null,
+    "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+    "shipmentType": "DirectLeg",
+    "completionTime": null,
+    "routeId": null,
+    "shipmentTrackingStatus": "Enroute For Pickup",
+    "lastForwardTime": null,
+    "runningStatus": "Delayed",
+    "delayTrackingStatus": "UP TO DATE",
+    "delayReasonLastUpdateTime": null,
+    "links": null,
+    "shipmentDate": 1686564252916,
+    "delayReason": null,
+    "shipmentNumber": "FRETTP0000002",
+    "originalEdd": 1686508200000,
+    "edd": 1686508200000,
+    "delayReasonUpdateExpiryTime": null,
+    "externalShipmentId": null,
+    "fleetInfo": {
+        "isTrackingEnable": null,
+        "forwardingAgent": null,
+        "verificationStatus": null,
+        "trackingMode": "TRACKNET",
+        "broker": null,
+        "uuid": "4b0e44e4-ccbf-4d7b-afc3-55c1fac172b1",
+        "orgId": null,
+        "vehicle": {
+            "vtsDeviceId": null,
+            "kmDriven": null,
+            "secondaryDriverId": null,
+            "attachedDocs": [
+                "f0a023b5-f66f-42e7-bdd1-5f87361fce0b",
+                "d2cddc8b-8858-4d65-93a2-bd35944c7048",
+                "3fc4a391-d9d7-4f21-9627-f55a12a56320",
+                "947edd8b-40ab-4953-ae07-11649dd63458",
+                "3e01afa9-2671-45fe-9a09-a7feef7dd3c5"
+            ],
+            "customFields": [
+                {
+                    "indexedValue": [
+                        "LoadedWeight_9"
+                    ],
+                    "fieldKey": "LoadedWeight",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "9",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "EngineNumber_MB1AXGCD5JRGW2026"
+                    ],
+                    "fieldKey": "EngineNumber",
+                    "valueType": "string",
+                    "fieldType": "text",
+                    "value": "MB1AXGCD5JRGW2026",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "NumberOfWheels_6"
+                    ],
+                    "fieldKey": "NumberOfWheels",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "6",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "RunningWheels_6"
+                    ],
+                    "fieldKey": "RunningWheels",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "6",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "UnloadenWeight_7"
+                    ],
+                    "fieldKey": "UnloadenWeight",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "7",
+                    "definitionId": null
+                }
+            ],
+            "floorType": null,
+            "description": null,
+            "source": "FRETRON",
+            "isTrackingEnabled": true,
+            "updates": {
+                "traceID": "bb6e21bc-3c46-4b89-bfe4-309301b6a712",
+                "resourceId": "4b0e44e4-ccbf-4d7b-afc3-55c1fac172b1",
+                "updatedBy": "USER",
+                "changes": null,
+                "sourceOfInformation": null,
+                "description": "updated partner fleet",
+                "forwardReasons": [
+                    "partner.fleet.updated",
+                    "partner.fleet.mark.verified.event"
+                ],
+                "userId": "fc07257b-0752-4194-a7a0-6527f6775e77",
+                "uuid": "d0e59390-6c01-41fc-bea6-fb031792fb9b",
+                "revision": null,
+                "time": 1684233977983,
+                "forwardedFrom": null,
+                "resourceType": "PartnerFleet",
+                "updateType": null
+            },
+            "uuid": "4b0e44e4-ccbf-4d7b-afc3-55c1fac172b1",
+            "branch": null,
+            "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+            "vehicleLoadType": {
+                "bodyType": "Open",
+                "passingCapacityMT": 9,
+                "minLength": 0,
+                "updates": {
+                    "traceID": null,
+                    "resourceId": "34cccbe4-7029-45c7-a598-583dfa249667",
+                    "updatedBy": "USER",
+                    "changes": null,
+                    "sourceOfInformation": null,
+                    "description": "Created Load Type.",
+                    "forwardReasons": [
+                        "load.type.created.event"
+                    ],
+                    "userId": "fc07257b-0752-4194-a7a0-6527f6775e77",
+                    "uuid": "3e7ed09d-f6b7-4bc7-8f10-35e1944e838a",
+                    "revision": null,
+                    "time": 1683539739973,
+                    "forwardedFrom": null,
+                    "resourceType": "LoadTypes",
+                    "updateType": null
+                },
+                "vehicleCategories": [],
+                "uuid": "34cccbe4-7029-45c7-a598-583dfa249667",
+                "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                "vehicleCategory": "Owned",
+                "includeMaxLength": false,
+                "minHeight": 0,
+                "maxHeight": -1,
+                "passingCapacityCFT": null,
+                "bodyTypes": [],
+                "partnerName": null,
+                "includeMinLength": false,
+                "partnerExternalId": null,
+                "externalId": null,
+                "chassisTypes": [],
+                "numberOfWheels": 6,
+                "chassisType": "9ft",
+                "includeMinHeight": false,
+                "name": "TATA_9MT",
+                "partnerId": null,
+                "includeMaxHeight": false,
+                "dimensionString": null,
+                "maxLength": -1
+            },
+            "associatedWith": null,
+            "isDeleted": null,
+            "customerId": null,
+            "vehicleModel": "T3600",
+            "mileageEmpty": null,
+            "mileageLoaded": null,
+            "vehicleType": "hire",
+            "groups": [],
+            "externalId": null,
+            "updateTime": 1683540101207,
+            "sharedWith": [],
+            "baseLocationId": null,
+            "vehicleMake": "TATA_9ft",
+            "vehicleRegistrationNumber": "UK08CA9603",
+            "chassisNumber": "MB1AXGCD5JRGW2026",
+            "driverId": null,
+            "createTime": null,
+            "loadCapacity": null,
+            "truckLength": null,
+            "category": null,
+            "groupsExtended": null
+        },
+        "driver": null,
+        "fleetType": "Owned",
+        "fleetOwner": null,
+        "trainInfo": null,
+        "lbsNumber": null,
+        "secondaryDriver": null,
+        "device": null,
+        "status": null
+    },
+    "syncUpDueTime": 1781172252919,
+    "billingStatus": null,
+    "currentLocation": null,
+    "alerts": null,
+    "equipments": null,
+    "tripType": "Maintenance",
+    "lastDelayCalculationTime": null,
+    "delayReasonUpdateDueTime": null,
+    "locationTrackingStatus": "DUE",
+    "poLineItemId": null,
+    "consignments": [],
+    "customContacts": null,
+    "shipmentStages": [
+        {
+            "departureTime": null,
+            "gateInTime": null,
+            "actualActivityStartTime": null,
+            "actualActivityEndTime": null,
+            "uuid": "9d2dc0ae-95b9-47af-8255-bd56f273e9f3",
+            "consignmentDelivered": null,
+            "resourceDropOff": null,
+            "resourcePickup": null,
+            "eta": 1686508200000,
+            "stageName": null,
+            "hub": {
+                "hubId": null,
+                "boundary": [
+                    [
+                        [
+                            78.03731834376713,
+                            29.92174421337631
+                        ],
+                        [
+                            78.04358713735355,
+                            29.9226745585363
+                        ],
+                        [
+                            78.04156910106204,
+                            29.91716678857435
+                        ],
+                        [
+                            78.03731834376713,
+                            29.92174421337631
+                        ]
+                    ]
+                ],
+                "address": null,
+                "accessibility": "private",
+                "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                "center": {
+                    "latitude": 29.92083244346582,
+                    "longitude": 78.03994823148746
+                },
+                "suggestedRadius": 0,
+                "isOwned": null,
+                "centerCoordinates": [
+                    78.03994823148746,
+                    29.92083244346582
+                ],
+                "placeId": "f4576716-65c0-44c1-98b0-4e92af9f8ead",
+                "geoJsonBoundry": null,
+                "externalId": null,
+                "source": "GOOGLE",
+                "places": [
+                    {
+                        "hubId": "f4576716-65c0-44c1-98b0-4e92af9f8ead",
+                        "boundary": null,
+                        "address": "Unnamed Road, Bahadarabad, Uttarakhand 249402, India",
+                        "accessibility": "public",
+                        "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                        "center": {
+                            "latitude": 29.919558374370858,
+                            "longitude": 78.04092032834541
+                        },
+                        "suggestedRadius": 500,
+                        "isOwned": false,
+                        "centerCoordinates": [
+                            78.04092032834541,
+                            29.919558374370858
+                        ],
+                        "placeId": "9a6e491c-b81f-4baf-97fe-7c52f94eef82",
+                        "geoJsonBoundry": null,
+                        "externalId": null,
+                        "source": "FRETRON",
+                        "places": null,
+                        "viewport": null,
+                        "district": null,
+                        "name": "FORACE POLYMERS",
+                        "state": null,
+                        "category": "Manufacturing Plant/Factory/Yard",
+                        "subDistrict": null,
+                        "controllingBranchId": null
+                    }
+                ],
+                "viewport": null,
+                "district": null,
+                "name": "FORACE POLYMERS HUB",
+                "state": null,
+                "category": "Hub",
+                "subDistrict": null,
+                "controllingBranchId": null
+            },
+            "arrivalTime": null,
+            "expectedActivityStartTime": 1686594600000,
+            "secondaryStatus": null,
+            "consignmentPickUps": null,
+            "tripPoint": {
+                "outOfTrackSince": null,
+                "creationTime": 1686564253263,
+                "purpose": "Maintenance",
+                "plannedArrival": 1686508200000,
+                "currentGpsState": null,
+                "updates": {
+                    "traceID": "b69b73e4-b147-41aa-9455-76c8c78ee7b2",
+                    "resourceId": "9d2dc0ae-95b9-47af-8255-bd56f273e9f3",
+                    "updatedBy": "SYSTEM",
+                    "changes": null,
+                    "sourceOfInformation": null,
+                    "description": null,
+                    "forwardReasons": [
+                        "trippoint.created"
+                    ],
+                    "userId": null,
+                    "uuid": "e24ac70c-8c9d-4f89-8faf-0eb29aee7808",
+                    "revision": 0,
+                    "time": 1686564253263,
+                    "forwardedFrom": null,
+                    "resourceType": "TripPoint",
+                    "updateType": null
+                },
+                "uuid": "9d2dc0ae-95b9-47af-8255-bd56f273e9f3",
+                "sequenceId": null,
+                "isDisconnected": false,
+                "isOutOfTrack": false,
+                "routeDeviationMinimumDistanceConstraint": null,
+                "eta": 1686508200000,
+                "routeId": null,
+                "expectedActivityStartTime": null,
+                "actualDeparture": null,
+                "vehicleId": "4b0e44e4-ccbf-4d7b-afc3-55c1fac172b1",
+                "place": null,
+                "remainingDistance": null,
+                "actualActivityStartTime": null,
+                "forShipmentStages": [
+                    "9d2dc0ae-95b9-47af-8255-bd56f273e9f3"
+                ],
+                "actualActivityEndTime": null,
+                "actualArrival": null,
+                "purposedDistance": null,
+                "plannedDeparture": 1686594600000,
+                "currentLocation": null,
+                "isAutoCompleted": false,
+                "coveredDistance": null,
+                "hub": {
+                    "hubId": null,
+                    "boundary": [
+                        [
+                            [
+                                78.03731834376713,
+                                29.92174421337631
+                            ],
+                            [
+                                78.04358713735355,
+                                29.9226745585363
+                            ],
+                            [
+                                78.04156910106204,
+                                29.91716678857435
+                            ],
+                            [
+                                78.03731834376713,
+                                29.92174421337631
+                            ]
+                        ]
+                    ],
+                    "address": null,
+                    "accessibility": "private",
+                    "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                    "center": {
+                        "latitude": 29.92083244346582,
+                        "longitude": 78.03994823148746
+                    },
+                    "suggestedRadius": 0,
+                    "isOwned": null,
+                    "centerCoordinates": [
+                        78.03994823148746,
+                        29.92083244346582
+                    ],
+                    "placeId": "f4576716-65c0-44c1-98b0-4e92af9f8ead",
+                    "geoJsonBoundry": null,
+                    "externalId": null,
+                    "source": "GOOGLE",
+                    "places": [
+                        {
+                            "hubId": "f4576716-65c0-44c1-98b0-4e92af9f8ead",
+                            "boundary": null,
+                            "address": "Unnamed Road, Bahadarabad, Uttarakhand 249402, India",
+                            "accessibility": "public",
+                            "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                            "center": {
+                                "latitude": 29.919558374370858,
+                                "longitude": 78.04092032834541
+                            },
+                            "suggestedRadius": 500,
+                            "isOwned": false,
+                            "centerCoordinates": [
+                                78.04092032834541,
+                                29.919558374370858
+                            ],
+                            "placeId": "9a6e491c-b81f-4baf-97fe-7c52f94eef82",
+                            "geoJsonBoundry": null,
+                            "externalId": null,
+                            "source": "FRETRON",
+                            "places": null,
+                            "viewport": null,
+                            "district": null,
+                            "name": "FORACE POLYMERS",
+                            "state": null,
+                            "category": "Manufacturing Plant/Factory/Yard",
+                            "subDistrict": null,
+                            "controllingBranchId": null
+                        }
+                    ],
+                    "viewport": null,
+                    "district": null,
+                    "name": "FORACE POLYMERS HUB",
+                    "state": null,
+                    "category": "Hub",
+                    "subDistrict": null,
+                    "controllingBranchId": null
+                },
+                "imei": "4b0e44e4-ccbf-4d7b-afc3-55c1fac172b1",
+                "assosiatedShipmentsId": [
+                    "59b67123-7d95-40e8-9d51-77f9dd1529ab"
+                ],
+                "status": "UPCOMING"
+            },
+            "place": null,
+            "controllingBranchId": null,
+            "gateOutTime": null,
+            "status": "UPCOMING"
+        }
+    ],
+    "remarks": null,
+    "syncUpExpiryTime": null,
+    "shipmentStatus": "Planned"
+}

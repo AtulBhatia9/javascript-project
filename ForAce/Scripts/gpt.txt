@@ -1,0 +1,533 @@
+const rp = require("request-promise");
+const TOKEN = "";
+
+const origin = "origin name",
+const destination = "destination name"
+
+const vehicleMaster = [
+    {
+        "driver": {
+            "name": null,
+            "externalId": null,
+            "uuid": null
+        },
+        "fleetType": "Owned",
+        "fleetOwner": {
+            "name": "Forace Polymers Pvt. Ltd. ",
+            "externalId": null,
+            "uuid": "68b9aa4c-2b85-4d03-a936-045b896590a7"
+        },
+        "verificationStatus": "Verified",
+        "trackingMode": "MANUAL",
+        "uuid": "fda6e3d7-96ef-4080-bc32-732e776c0545",
+        "device": null,
+        "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+        "vehicle": {
+            "vtsDeviceId": null,
+            "kmDriven": null,
+            "secondaryDriverId": null,
+            "attachedDocs": [],
+            "customFields": [
+                {
+                    "indexedValue": [
+                        "LoadedWeight_9"
+                    ],
+                    "fieldKey": "LoadedWeight",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "9",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "EngineNumber_65675764456465464"
+                    ],
+                    "fieldKey": "EngineNumber",
+                    "valueType": "string",
+                    "fieldType": "text",
+                    "value": "65675764456465464",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "NumberOfWheels_6"
+                    ],
+                    "fieldKey": "NumberOfWheels",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "6",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "RunningWheels_6"
+                    ],
+                    "fieldKey": "RunningWheels",
+                    "valueType": "string",
+                    "fieldType": "number",
+                    "value": "6",
+                    "definitionId": null
+                },
+                {
+                    "indexedValue": [
+                        "baseLocation_FORACE POLYMERS HUB"
+                    ],
+                    "fieldKey": "baseLocation",
+                    "valueType": "string",
+                    "fieldType": "text",
+                    "value": "FORACE POLYMERS HUB",
+                    "definitionId": null
+                }
+            ],
+            "floorType": null,
+            "description": null,
+            "source": "FRETRON",
+            "isTrackingEnabled": true,
+            "updates": {
+                "traceID": "8b105f41-50ee-42ec-b986-0cfb4e57daa5",
+                "resourceId": "fda6e3d7-96ef-4080-bc32-732e776c0545",
+                "updatedBy": "USER",
+                "changes": null,
+                "sourceOfInformation": null,
+                "description": "updated partner fleet",
+                "forwardReasons": [
+                    "partner.fleet.updated",
+                    "partner.fleet.mark.verified.event"
+                ],
+                "userId": "fc07257b-0752-4194-a7a0-6527f6775e77",
+                "uuid": "b87be507-1d26-420b-b95b-2a43db3f86ae",
+                "revision": null,
+                "time": 1684233995854,
+                "forwardedFrom": null,
+                "resourceType": "PartnerFleet",
+                "updateType": null
+            },
+            "uuid": "fda6e3d7-96ef-4080-bc32-732e776c0545",
+            "branch": {
+                "address": "Unnamed Road, Bahadarabad, Uttarakhand 249402, India",
+                "updatedBy": null,
+                "customFields": null,
+                "regionName": null,
+                "externalId": null,
+                "branchName": null,
+                "type": [
+                    "IT",
+                    "Operation",
+                    "Sales",
+                    ""
+                ],
+                "updates": null,
+                "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                "geoLocation": [
+                    78.04092032834541,
+                    29.919558374370858
+                ],
+                "regionId": null,
+                "name": "Forace Polymers Pvt. Ltd. ",
+                "zoneId": null,
+                "_id": "68b9aa4c-2b85-4d03-a936-045b896590a7",
+                "zoneName": null,
+                "contacts": [],
+                "officeType": null,
+                "materialServices": null
+            },
+            "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+            "vehicleLoadType": {
+                "bodyType": "Open",
+                "passingCapacityMT": 9,
+                "minLength": 0,
+                "updates": {
+                    "traceID": null,
+                    "resourceId": "34cccbe4-7029-45c7-a598-583dfa249667",
+                    "updatedBy": "USER",
+                    "changes": null,
+                    "sourceOfInformation": null,
+                    "description": "Created Load Type.",
+                    "forwardReasons": [
+                        "load.type.created.event"
+                    ],
+                    "userId": "fc07257b-0752-4194-a7a0-6527f6775e77",
+                    "uuid": "3e7ed09d-f6b7-4bc7-8f10-35e1944e838a",
+                    "revision": null,
+                    "time": 1683539739973,
+                    "forwardedFrom": null,
+                    "resourceType": "LoadTypes",
+                    "updateType": null
+                },
+                "vehicleCategories": [],
+                "uuid": "34cccbe4-7029-45c7-a598-583dfa249667",
+                "orgId": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+                "vehicleCategory": "Owned",
+                "includeMaxLength": false,
+                "minHeight": 0,
+                "maxHeight": -1,
+                "passingCapacityCFT": null,
+                "bodyTypes": [],
+                "partnerName": null,
+                "includeMinLength": false,
+                "partnerExternalId": null,
+                "externalId": null,
+                "chassisTypes": [],
+                "numberOfWheels": 6,
+                "chassisType": "9ft",
+                "includeMinHeight": false,
+                "name": null,
+                "partnerId": null,
+                "includeMaxHeight": false,
+                "dimensionString": null,
+                "maxLength": -1
+            },
+            "associatedWith": null,
+            "isDeleted": null,
+            "customerId": null,
+            "vehicleModel": null,
+            "mileageEmpty": null,
+            "mileageLoaded": null,
+            "vehicleType": "hire",
+            "groups": [],
+            "externalId": null,
+            "updateTime": 1684146456125,
+            "sharedWith": [],
+            "baseLocationId": "f4576716-65c0-44c1-98b0-4e92af9f8ead",
+            "vehicleMake": null,
+            "vehicleRegistrationNumber": "UK08CB3004",
+            "chassisNumber": "65675764456465464",
+            "driverId": null,
+            "createTime": null,
+            "loadCapacity": null,
+            "truckLength": null,
+            "category": null,
+            "groupsExtended": null
+        },
+        "status": "ACTIVE"
+    },
+]
+const placeMaster = [
+    {
+        "hubId": null,
+        "boundary": null,
+        "address": "Mehsana - Himatnagar Hwy, Heduva Hanumat, Gujarat 384012, India",
+        "accessibility": "private",
+        "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+        "center": {
+            "latitude": 23.5696,
+            "longitude": 72.39612
+        },
+        "suggestedRadius": 136,
+        "isOwned": false,
+        "centerCoordinates": [
+            72.39612,
+            23.5696
+        ],
+        "placeId": "48ae0f65-ef33-4dbf-9cdd-c4d42ba93e2e",
+        "geoJsonBoundry": null,
+        "externalId": null,
+        "source": "FRETRON",
+        "places": null,
+        "viewport": null,
+        "district": null,
+        "name": "Zircar Refractories Ltd.",
+        "state": null,
+        "category": "Manufacturing Plant/Factory/Yard",
+        "subDistrict": null,
+        "controllingBranchId": null
+    },
+    {
+        "hubId": null,
+        "boundary": null,
+        "address": "Srinagar - Kanyakumari Hwy, Kishora, Haryana 131001, India",
+        "accessibility": "private",
+        "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+        "center": {
+            "latitude": 28.97546400442843,
+            "longitude": 77.08612906351682
+        },
+        "suggestedRadius": 163,
+        "isOwned": false,
+        "centerCoordinates": [
+            77.08612906351682,
+            28.97546400442843
+        ],
+        "placeId": "5e5e5af0-790e-4914-80a7-b255b0bcfff8",
+        "geoJsonBoundry": null,
+        "externalId": null,
+        "source": "FRETRON",
+        "places": null,
+        "viewport": null,
+        "district": null,
+        "name": "Voestalpine VAE VKN India Pvt. Ltd.",
+        "state": null,
+        "category": "Manufacturing Plant/Factory/Yard",
+        "subDistrict": null,
+        "controllingBranchId": null
+    },
+    {
+        "hubId": null,
+        "boundary": null,
+        "address": "Unnamed Road, Bahadarabad, Uttarakhand 249402, India",
+        "accessibility": "private",
+        "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+        "center": {
+            "latitude": 29.91933522958502,
+            "longitude": 78.04160732902595
+        },
+        "suggestedRadius": 100,
+        "isOwned": false,
+        "centerCoordinates": [
+            78.04160732902595,
+            29.91933522958502
+        ],
+        "placeId": "9915ee0d-9c70-410f-b474-b33749622c18",
+        "geoJsonBoundry": null,
+        "externalId": null,
+        "source": "FRETRON",
+        "places": null,
+        "viewport": null,
+        "district": null,
+        "name": "Uttarakhand Gujrat Carriers",
+        "state": null,
+        "category": "Fleet Office",
+        "subDistrict": null,
+        "controllingBranchId": null
+    },
+    {
+        "hubId": null,
+        "boundary": null,
+        "address": "Delhi - Jaipur Expy, Majra Gurdas, Haryana 123401, India",
+        "accessibility": "private",
+        "addedBy": "11a39d2f-1485-4010-bf96-69e9fdcde203",
+        "center": {
+            "latitude": 28.15918974101062,
+            "longitude": 76.69425848555838
+        },
+        "suggestedRadius": 100,
+        "isOwned": false,
+        "centerCoordinates": [
+            76.69425848555838,
+            28.15918974101062
+        ],
+        "placeId": "34821bae-2737-4ea1-b424-58c1e7d8726f",
+        "geoJsonBoundry": null,
+        "externalId": null,
+        "source": "FRETRON",
+        "places": null,
+        "viewport": null,
+        "district": null,
+        "name": "Uniproducts (India) Ltd.",
+        "state": null,
+        "category": "Manufacturing Plant/Factory/Yard",
+        "subDistrict": null,
+        "controllingBranchId": null
+    },
+]
+
+async function main(){
+    try {
+            let shipmentStages = []
+            let originStage = {
+                "hub": null,
+                "stageName": null,
+                "consignmentPickUps": null,
+                "tripPoint": {
+                    "purpose": "Pickup"
+                },
+                "place": originPlace,
+            }
+            let destinationStage = {
+                "hub": null,
+                "stageName": null,
+                "consignmentPickUps": null,
+                "tripPoint": {
+                    "purpose": "Delivery"
+                },
+                "place": destinationPlace,
+            }
+
+            shipmentStages.push(originStage)
+            shipmentStages.push(destinationStage)
+        const shipmentPayload = {
+            "shipment": {
+                "shipmentNumber": null,
+                "shipmentDate": Date.now(),
+                "shipmentStages": shipmentStages,
+                "fleetInfo": {
+                    "device": null,
+                    "lbsNumber": null,
+                    "trackingMode": "MANUAL",
+                    "vehicle": getVehicleFromMaster,
+                    "fleetOwner": null,
+                    "fleetType": "Owned",
+                    "forwardingAgent": null,
+                },
+                "edd": null,
+                "shipmentStatus": "Planned",
+                "transportationMode": "ByRoad",
+                "shipmentType": "DirectLeg",
+                "customFields": [],
+                "uuid": null,
+                "branch": null,
+                "originalEdd": null,
+                "routeId": null
+            },
+            "consignments": []
+        }
+    } catch (error) {
+        console.log(`Caught Error in main function: ${error.message}`);
+    }
+}
+
+async function createShipment(shipmentPayload, TOKEN) {
+    const url = `https://apis.fretron.com/shipment/v1/shipment/with/consignments`;
+    try {
+        const res = await rp({
+            method: "POST",
+            uri: url,
+            body: shipmentPayload,
+            headers: {
+                Authorization: TOKEN,
+            },
+            json: true,
+        });
+
+        console.log(`Shipment created with UUID: ${res.data.uuid}`);
+
+        if (res.status == 200) {
+            return res.data;
+        } else {
+            console.log(`Create Shipment api response error: ${res.error}`);
+        }
+    } catch (e) {
+        console.log(`Caught Error in Create Shipment api: ${e.message}`);
+        throw e;
+    }
+}
+
+we have to create 4 shipments for per vehicle each for four different cases 
+1. orign will be "FORACE POLYMERS" and destination will be any random destination except the orgin.
+2. origin will be random and destination will be "FORACE POLYMERS"
+3. orign will be "FORACE POLYMERS" and destination will be any two random destination except the orgin.
+4. origin will be any two random and destination will be "FORACE POLYMERS"
+
+get the place from placeMaster
+get the vehicle from vehicleMaster
+create shipments for all the vehicles
+
+we have to create four(the above four cases) shipments for one vehicle.vehicleRegistrationNumber each 
+//////////////////////////////////////////////////////
+[11:11] Suyash Kumar
+
+TOUR NO.,
+
+INWARD INCOME RECD,
+
+TRANSPORTER NAME,
+
+Diesal price,
+
+OUTRATE PER KG,
+
+INRATE PER KG,
+
+DA,
+
+TOLL,
+
+REPAIR,
+
+DIESEL,
+
+CHALLAN,
+
+LOADING/UNLOADING,
+
+FASTAG TOLL
+
+[11:14] Suyash Kumar
+
+[
+  {
+    fieldKey: 'TOUR NO',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'INWARD INCOME RECD',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'TRANSPORTER NAME',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'Diesel price',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'OUTRATE PER KG',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'INRATE PER KG',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+  fieldKey: 'DA',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'TOLL',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'REPAIR',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'CHALLAN',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'LOADING/UNLOADING',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  },
+  {
+    fieldKey: 'FASTAG TOLL',
+    value: '',
+    input: 'string',
+    valueType: 'string',
+    fieldType: 'text'
+  }
+]
+_.random([lower=1000], [upper=100000], [floating])
